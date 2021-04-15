@@ -1,0 +1,49 @@
+
+
+.LegoLogo{
+    width: 150px;
+    display: inline-flex;
+    margin-left: -122px;
+    margin-top: -1.7%;
+}
+
+
+
+.tekstHeader{
+    margin-top: -19%;
+    margin-left:3%;
+    font-size: 50px;
+
+}
+
+/*taleboble*/
+.bubble{
+  background-color: ivory;
+  position: relative;
+  text-align: center;
+border-radius: 30px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+
+/*Nederste trekant i boblen*/
+.trekantVedTaleboble{
+    position: absolute;
+    border-right: 60px solid #FFF;
+    border-top: 40px solid transparent;
+    border-bottom: 80px solid transparent;
+    top: 50%;
+    left: 60%;
+
+}
+
+/*Næste knap*/
+.Naste{
+  margin-left: 55%;
+}
+
+.tilbage{
+  margin-left: 50%;
+
+}
