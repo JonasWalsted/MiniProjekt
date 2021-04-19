@@ -9,3 +9,12 @@ export const signOut = () => {
         type: 'SIGN_OUT'
     };
 };
+
+// Action creator
+export const selectQuestion = question => {
+  // Return an action
+  return {
+    type: 'AGEGROUP_SELECTED',
+    payload: question
+  };
+};
