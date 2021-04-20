@@ -5,9 +5,6 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 const Demografi = () => {
   return (
-
-
-
 <div>
 <form class="ui form">
   <h4 class="ui dividing header">PERSONLIGE INFORMATIONER</h4>
@@ -24,18 +21,14 @@ const Demografi = () => {
          <input type="text" name="name" placeholder="Efternavn:"  requred/>
        </label>
        </div>
-
             </div>
-
 </form>
 
   <div className="Design">
       <div class="ui centered grid"><h1> Hvilken aldersgruppe tilhører du? </h1></div>
           <p>    <QuestionList /></p>
-<br />
+            <br />
           <p>     <QuestionDetail /></p>
-
-
    <div class="ui button" tabindex="0">NÆSTE</div>
 
 
@@ -55,16 +48,11 @@ const Demografi = () => {
 
     <div className="Naste">
       <button className="ui button">
-        Næste
+        <Link to="/PageThree"> Næste </Link>
       </button>
     </div>
   </div>
 </div>
-
-
-
-
-
     </div>
     );
 }

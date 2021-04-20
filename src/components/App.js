@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Introduktion from './introduktion/Introduktion';
 import GoogleAuth from './GoogleAuth';
 import Demografi from './Demografi';
+import Video  from './Video';
 
 const PageOne = () => {
   return (
@@ -18,6 +19,11 @@ const PageTwo = () => {
     <Demografi />
   </div>
 };
+const PageThree = () => {
+  return <div>
+    <Video />
+  </div>
+};
 
 const App = () => {
 
@@ -27,6 +33,7 @@ const App = () => {
       <BrowserRouter>
         <Route path="/" exact component={PageOne} />
         <Route path="/pageTwo" component={PageTwo} />
+        <Route path="/PageThree" component={PageThree} />
       </BrowserRouter>
     </div>
   )
