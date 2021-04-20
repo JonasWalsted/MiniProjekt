@@ -15,13 +15,13 @@ const Demografi = () => {
  <div class="field">
   <label>
     Fornavn:
-    <input type="text" name="name" placeholder="Fornavn:" />
+    <input type="text" name="name" placeholder="Fornavn:" requred/>
   </label>
       </div>
       <div class="field">
        <label>
          Efternavn:
-         <input type="text" name="name" placeholder="Efternavn:" />
+         <input type="text" name="name" placeholder="Efternavn:"  requred/>
        </label>
        </div>
 

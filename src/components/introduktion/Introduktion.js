@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Template.css'
-
+import { BrowserRouter, Route, Link } from 'react-router-dom';
 import './Introduktion.css';
 
 
@@ -25,7 +25,7 @@ const Introduktion = () => {
 
         <div className="Naste">
           <button className="ui button">
-            Næste
+                <Link to="/pagetwo"> Næste </Link>
           </button>
         </div>
       </div>

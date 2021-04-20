@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Introduktion from './1introduktion/Introduktion';
+import Introduktion from './introduktion/Introduktion';
 import GoogleAuth from './GoogleAuth';
 import Demografi from './Demografi';
 
