@@ -2,13 +2,17 @@ import React from 'react';
 import '../Template.css'
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import './Introduktion.css';
-
+import GoogleAuth from '../GoogleAuth';
 
 
 
 const Introduktion = () => {
   return (
+
+
+
     <div className="Design">
+      <GoogleAuth />
       <div className="bubble">
         <p>Hej! Jeg hedder Merlin <br /> Velkommen til dette forsøg</p>
         <div className="trekantVedTaleboble">

@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { signIn, signOut } from '../actions';
+import './Template.css';
 
 class GoogleAuth extends React.Component {
     componentDidMount() {
@@ -56,7 +57,7 @@ class GoogleAuth extends React.Component {
     }
 
     render() {
-        return <div>{this.renderAuthButton()}</div>;
+        return <div className="Naste">{this.renderAuthButton()}</div>;
     }
 }
 
