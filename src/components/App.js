@@ -1,15 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Introduktion from './introduktion/Introduktion';
-import GoogleAuth from './GoogleAuth';
 import Demografi from './Demografi';
-import Video  from './Video';
+import Video from './Video';
 
 const PageOne = () => {
   return (
-    <div>
+    <div className="Hej">
       <Introduktion />
-      <GoogleAuth />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { signIn, signOut } from '../actions';
+import './Template.css'
 
 class GoogleAuth extends React.Component {
     componentDidMount() {
@@ -40,7 +41,7 @@ class GoogleAuth extends React.Component {
             return (
                 <button onClick={this.onSignOut} className="ui red google button">
                     <i className="google icon">
-                        Log ud
+                        <p>Log ud</p>
                     </i>
                 </button>
             )
@@ -48,7 +49,8 @@ class GoogleAuth extends React.Component {
             return (
                 <button onClick={this.onSignIn} className="ui red google button">
                     <i className="google icon">
-                        Log ind med Google
+                        <p>Log ind med Google</p>
+
                     </i>
                 </button>
             )
@@ -56,7 +58,7 @@ class GoogleAuth extends React.Component {
     }
 
     render() {
-        return <div>{this.renderAuthButton()}</div>;
+        return <div className="Googleknap" id="Virkerjeg">{this.renderAuthButton()}</div>;
     }
 }
 
