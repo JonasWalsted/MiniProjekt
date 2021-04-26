@@ -8,7 +8,11 @@ import GoogleAuth from '../GoogleAuth';
 
 const Introduktion = () => {
   return (
+
+
+
     <div className="Design">
+      <GoogleAuth />
       <div className="bubble">
         <p>Hej! Jeg hedder Merlin <br /> Velkommen til dette forsøg</p>
         <div className="trekantVedTaleboble">
