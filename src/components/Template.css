@@ -40,11 +40,8 @@ vertical-align: middle;
 
 button.ui.red.google.button{
 width: 10em;
-position: relative;
 padding: 0;
 height: 4em;
-left: 30em;
-top: -20em;
 }
 
 button.ui.red.google.button i {

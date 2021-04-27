@@ -1,8 +1,20 @@
 import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { Router, Route } from 'react-router-dom';
 import Introduktion from './introduktion/Introduktion';
 import Demografi from './Demografi';
 import Video from './Video';
+import history from '../history';
+import ForsteSide from './ForsteSide';
+
+
+
+const PageOneOne = () => {
+  return (
+    <div className="Hej">
+      <ForsteSide />
+    </div>
+  );
+};
 
 const PageOne = () => {
   return (
@@ -28,11 +40,12 @@ const App = () => {
 
   return (
     <div>
-      <BrowserRouter>
-        <Route path="/" exact component={PageOne} />
+      <Router history={history}>
+        <Route path="/" exact component={PageOneOne} />
+        <Route path="/PageOne" component={PageOne} />
         <Route path="/pageTwo" component={PageTwo} />
         <Route path="/PageThree" component={PageThree} />
-      </BrowserRouter>
+      </Router>
     </div>
   )
 
