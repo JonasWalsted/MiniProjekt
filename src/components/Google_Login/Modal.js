@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import GoogleAuth from './GoogleAuth';
 import { Link } from 'react-router-dom';
-import './Template.css';
+import '../Template.css';
 
 
 const Modal = props => {

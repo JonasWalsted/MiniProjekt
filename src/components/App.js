@@ -1,10 +1,10 @@
 import React from 'react';
 import { Router, Route } from 'react-router-dom';
-import Introduktion from './introduktion/Introduktion';
-import Demografi from './Demografi';
-import Video from './Video';
+import Introduktion from './Introduction/Introduktion';
+import Demografi from './Demographics/Demografi';
+import Video from './Video/Video';
 import history from '../history';
-import ForsteSide from './ForsteSide';
+import ForsteSide from './Google_Login/ForsteSide';
 
 
 

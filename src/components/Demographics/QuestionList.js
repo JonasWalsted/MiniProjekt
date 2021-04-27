@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { selectQuestion, selectGender } from '../actions';
+import { selectQuestion, selectGender } from '../../actions';
 
 
 

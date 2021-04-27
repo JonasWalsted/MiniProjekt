@@ -41,13 +41,13 @@ const Demografi = () => {
         <div>
           <img className="Merlin" src="Billede1.png" alt="Merlin"></img>
           <div className="tilbage">
-            <button className="ui button">
+            <button className="ui back button">
               <Link to="/"> Tilbage </Link>
             </button>
           </div>
 
           <div className="Naste">
-            <button className="ui button">
+            <button className="ui next button">
               <Link to="/PageThree"> Næste </Link>
             </button>
           </div>

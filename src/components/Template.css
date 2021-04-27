@@ -57,3 +57,13 @@ button.ui.red.google.button p{
 position: relative;
 right: -0.5em;
 }
+
+.ui.next.button {
+  border-width: 2px;
+  border-style: solid;
+}
+.ui.back.button {
+  border-width: 2px;
+  border-style: solid;
+  
+}
