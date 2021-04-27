@@ -2,7 +2,6 @@ import React from 'react';
 import '../Template.css'
 import { Link } from 'react-router-dom';
 import './Introduktion.css';
-import GoogleAuth from '../GoogleAuth';
 
 
 
@@ -15,7 +14,6 @@ const Introduktion = () => {
         <div className="tekstHeader">
           <b>Velkommen</b>
         </div>
-        <GoogleAuth />
         <div className="bubble">
           <p>Hej! Jeg hedder Merlin <br /> Velkommen til dette forsøg</p>
           <div className="trekantVedTaleboble">
@@ -26,7 +24,6 @@ const Introduktion = () => {
           <img className="Merlin" src="Billede1.png" alt="Merlin"></img>
 
         </div>
-        <GoogleAuth />
         <div className="Naste">
           <button className="large ui next button">
             <Link to="/pagetwo"> Næste </Link>
