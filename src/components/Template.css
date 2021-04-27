@@ -10,9 +10,12 @@
 
 
 .tekstHeader{
-  margin-top: -19%;
-  margin-left:3%;
-  font-size: 50px;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  color: ivory;
+  font-size: 60px;
+  text-align: center;
 
 }
 
@@ -43,7 +46,7 @@ width: 10em;
 position: relative;
 padding: 0;
 height: 4em;
-left: 30em;
+left: 25em;
 top: -20em;
 }
 
