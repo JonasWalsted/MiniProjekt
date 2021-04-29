@@ -1,0 +1,55 @@
+/*Merlin*/
+.Merlin{
+    display: block;
+    margin-left: 35em;
+    margin-right: auto;
+    margin-top: 150px;
+  
+}
+  
+  /*Taleboble*/
+  .bubble{
+      width: 200px;
+      height: 100px;
+      margin-left: 22%;
+      top: 90px;
+}
+  
+  .body{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../../Images/background_space.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center; /* Center the image */
+}
+  
+.buttons > * {
+    vertical-align: middle;
+}
+  
+.tilbage{
+    position: absolute;
+    left:25em;
+    top: 45em;
+  
+}
+
+.Naste{
+    position: absolute;
+    right: 25em;
+    top: 45em;
+}
+
+.Billede1 img{
+    margin-left: 70em;
+    margin-top: -30em;
+    margin-bottom: 20em;
+    padding:0;
+    cursor: pointer;
+}
+
+

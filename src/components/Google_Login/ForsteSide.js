@@ -26,11 +26,6 @@ const ForsteSide = () => {
                     <Link to="/pagetwo"> Næste </Link>
                 </button>
             </div>
-            <div className="tilbage">
-                <button className="ui button">
-                    Tilbage
-          </button>
-            </div>
 
 
         </div>

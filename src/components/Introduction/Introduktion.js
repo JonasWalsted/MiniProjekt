@@ -28,11 +28,6 @@ const Introduktion = () => {
             <Link to="/pagetwo"> Næste </Link>
           </button>
         </div>
-        <div className="tilbage">
-          <button className="large ui back button">
-            Tilbage
-            </button>
-        </div>
 
 
       </div>
