@@ -14,7 +14,7 @@ class Introduktion extends React.Component {
                     <div className="tekstHeader">
                         <b>Velkommen</b>
                     </div>
-                    
+
                     <div className="Merlin_box3">
                         <div className="bubble">
                             <p>Hej! Jeg hedder Merlin <br /> Velkommen til dette forsøg</p>
