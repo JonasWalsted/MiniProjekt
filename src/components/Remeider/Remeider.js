@@ -1,7 +1,7 @@
 import React from 'react';
 import './Remeider.css';
 import history from '../../history';
-
+import { Link } from 'react-router-dom';
 class Introduktion extends React.Component {
     imageClick() {
         history.push('/PageFour')
@@ -27,6 +27,12 @@ class Introduktion extends React.Component {
                         <button className="large ui back button">
                             Tilbage
               </button>
+
+              <div className="Naste">
+                <button className="large ui next button">
+                  <Link to="/pagetwo"> Næste </Link>
+                </button>
+              </div>
                     </div>
                     <div className="Billede1">
                         <img onClick={this.imageClick} className="Skruetrakker" src="Skruetrakker.png" alt="Skruetrækker"></img>
