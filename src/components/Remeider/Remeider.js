@@ -13,7 +13,7 @@ class Introduktion extends React.Component {
             <div className="body" >
                 <div className="Design">
                     <div className="tekstHeader">
-                        <b>Velkommen</b>
+                        <h1>Velkommen</h1>
                     </div>
 
                     <div className="Merlin_box3">
