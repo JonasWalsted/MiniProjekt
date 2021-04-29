@@ -1,7 +1,7 @@
 import React from 'react';
 import QuestionList from './QuestionList';
 import QuestionDetail from './QuestionDetail';
-import Forventning from './Forventning';
+import SimpleForm from './SimpleForm';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import '../Template.css';
 import './Demographics.css';
@@ -16,13 +16,7 @@ const Demografi = () => {
       </div>
 
       <div className="nameInput">
-        <form class="ui form">
-              <label for="fornavn">Fornavn:</label>
-              <input type="text" name="name" id="fornavn" placeholder="Fornavn:" requred />
-
-              <label for="efternavn">Efternavn:</label>
-              <input type="text" name="name" id="efternavn" placeholder="Efternavn:" requred />
-        </form>
+          <div><SimpleForm/></div>
       </div>
 
       <div className="Design">
@@ -44,7 +38,7 @@ const Demografi = () => {
           </div>
         </div>
 
-        <div><Forventning/></div>
+
 
         <div className="tilbage">
           <button className="ui back button">
