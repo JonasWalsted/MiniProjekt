@@ -1,21 +1,28 @@
 .tekstHeader{
-  margin-top: 35px;
+  margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
-  color: ivory;
-  font-size: 60px;
-  text-align: center;
 
+  text-align: center;
+  color: ivory;
+
+}
+
+.ui.dividing.header{
+  color: ivory;
+  font-size: 40px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 /*taleboble*/
 .bubble{
-background-color: ivory;
-position: relative;
-text-align: center;
-border-radius: 30px;
-font-weight: bold;
-vertical-align: middle;
+  background-color: ivory;
+  text-align: center;
+  border-radius: 30px;
+  font-weight: bold;
+  vertical-align: middle;
+  width: 200px;
+  height: 100px;
 }
 
 
@@ -25,10 +32,14 @@ vertical-align: middle;
   border-right: 60px solid #FFF;
   border-top: 40px solid transparent;
   border-bottom: 80px solid transparent;
-  top: 50%;
-  left: 60%;
-
+  left: 1.5cm;
 }
+
+.Merlin{
+  position: absolute;
+  top: 4.5cm;
+}
+
 
 button.ui.red.google.button{
 width: 10em;
