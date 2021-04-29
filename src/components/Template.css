@@ -41,8 +41,8 @@
 .trekantVedTaleboble{
   position: absolute;
   border-right: 60px solid #FFF;
-  border-top: 40px solid transparent;
   border-bottom: 80px solid transparent;
+  top: 100px;
   left: 1.5cm;
 }
 

@@ -34,7 +34,7 @@ const Demografi = () => {
 
         <div className="Merlin_box2">
           <div className="bubble">
-            <p>Hej! Jeg hedder Merlin <br /> Velkommen til dette forsøg</p>
+            <p>Jeg har faktisk ikke fået dit navn. Hvad hedder du? <br />Hvor gammel er du og hvor bor du?</p>
             <div className="trekantVedTaleboble">
             </div>
           </div>

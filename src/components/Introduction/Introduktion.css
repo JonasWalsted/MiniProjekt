@@ -11,9 +11,10 @@
 }
 
 .Merlin_box1{
-  position: absolute;
+  position: relative;
   width: auto;
-  margin: 0 auto;
+  left: 60em;
+  top: 3em;
 }
 
 .buttons > * {
