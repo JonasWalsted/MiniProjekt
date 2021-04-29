@@ -29,7 +29,6 @@ class GoogleAuth extends React.Component {
 
     onSignIn = () => {
         this.auth.signIn();
-        history.push('/PageOne')
     }
 
     onSignOut = () => {
