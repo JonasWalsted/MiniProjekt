@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import './Video.css';
+import '../Template.css';
+import { Link } from 'react-router-dom';
+
+
 
 function Video() {
-  const [visKnap, setVisKnap] = useState(true);
 	const [playing, setPlaying] = useState(false);
 
 	const HEIGHT = 500;
@@ -25,26 +28,7 @@ function Video() {
 	};
 
 const a = () => {
-<div className="app">
-  <div className="app__container">
-      <video
-        height={HEIGHT}
-        width={WIDTH}
-        muted
-        autoPlay
-        className="app__videoFeed"
-      >
-      </video>
-    </div>
 
-    <div className="app__input">
-     {playing ? (
-        <button onClick={stopVideo}>Stop</button>
-      ) : (
-        <button onClick={startVideo}>Start</button>
-      )}
-    </div>
-    </div>
 }
 	const stopVideo = () => {
 		setPlaying(false);
@@ -54,10 +38,51 @@ const a = () => {
 
 
 	return (
-    <div className="app">
-        <div>{a}</div>
-    <button onClick={() => setVisKnap(false)}>Skjul knap</button>
-    <button onClick={() => setVisKnap(true)}>Vis knap</button>
+
+
+    <div className="body">
+      <div className="Design">
+      <div className="tekstHeader">
+          <b>Velkommen</b>
+      </div>
+
+      <div className="Merlin_box3">
+          <div className="bubble">
+              <p>  Indstil kameraet<br />  så man kan se dig og LEGO'et på bordet <br /> Tryk <b>start</b>, for at starte videoen</p>
+              <div className="trekantVedTaleboble"></div>
+          </div>
+          <img className="Merlin" src="Billede1.png" alt="Merlin"></img>
+      </div>
+      <div className="app__container">
+          <video
+            height={HEIGHT}
+            width={WIDTH}
+            muted
+            autoPlay
+            className="app__videoFeed"
+          >
+          </video>
+        </div>
+        <div className="app__input">
+         {playing ? (
+            <button onClick={stopVideo}>Stop</button>
+          ) : (
+            <button onClick={startVideo}>Start</button>
+          )}
+        </div>
+        </div>
+
+        <div className="Naste">
+          <button className="large ui next button">
+            <Link to="/PageFive"> Færdig! </Link>
+          </button>
+        </div>
+
+        <div className="tilbage">
+            <button className="large ui back button">
+                <Link to="/PageThree"> Tilbage </Link>
+            </button>
+      </div>
 
 
 

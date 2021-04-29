@@ -2,6 +2,7 @@ import React from 'react';
 import './Remeider.css';
 import history from '../../history';
 import { Link } from 'react-router-dom';
+
 class Introduktion extends React.Component {
     imageClick() {
         history.push('/PageFour')
@@ -25,12 +26,12 @@ class Introduktion extends React.Component {
 
                     <div className="tilbage">
                         <button className="large ui back button">
-                            Tilbage
+                              <Link to="/PageTwo"> Tilbage </Link>
               </button>
 
               <div className="Naste">
                 <button className="large ui next button">
-                  <Link to="/pagetwo"> Næste </Link>
+                  <Link to="/PageFour"> Næste </Link>
                 </button>
               </div>
                     </div>

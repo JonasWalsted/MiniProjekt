@@ -6,8 +6,9 @@ import Video from './Video/Video';
 import history from '../history';
 import ForsteSide from './Google_Login/ForsteSide';
 import Remedier from './Remeider/Remeider';
-
-
+import Instruks from './Instruks/Instruks'
+import Instruks1 from './Instruks/Instruks1'
+import Instruks2 from './Instruks/Instruks2'
 
 const PageOneOne = () => {
   return (
@@ -42,6 +43,28 @@ const PageFour = () => {
   </div>
 };
 
+const PageFive = () => {
+  return <div>
+    <Instruks />
+  </div>
+};
+const PageSix = () => {
+  return <div>
+    <Instruks1 />
+  </div>
+};
+
+
+const PageSeven = () => {
+  return <div>
+    <Instruks2 />
+  </div>
+};
+
+
+
+
+
 const App = () => {
 
 
@@ -53,6 +76,9 @@ const App = () => {
         <Route path="/pageTwo" component={PageTwo} />
         <Route path="/PageThree" component={PageThree} />
         <Route path="/PageFour" component={PageFour} />
+        <Route path="/PageFive" component={PageFive} />
+        <Route path="/PageSix" component={PageSix} />
+        <Route path="/PageSeven" component={PageSeven} />
       </Router>
     </div>
   )

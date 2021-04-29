@@ -5,7 +5,7 @@ import { selectQuestion, selectGender } from '../../actions';
 
 
 
-class QuestionList extends Component {
+class QuestionList extends React.Component {
   renderList() {
     return this.props.questions.map(question => {
       return (
