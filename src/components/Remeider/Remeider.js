@@ -14,12 +14,12 @@ class Introduktion extends React.Component {
                     <div className="tekstHeader">
                         <b>Velkommen</b>
                     </div>
-                    <div className="bubble">
-                        <p>Hej! Jeg hedder Merlin <br /> Vi skal nu bruge nogle ting. Kan du finde en skruetrækker?</p>
-                        <div className="trekantVedTaleboble"></div>
-                    </div>
-
-                    <div>
+                    
+                    <div className="Merlin_box3">
+                        <div className="bubble">
+                            <p>Hej! Jeg hedder Merlin <br /> Velkommen til dette forsøg</p>
+                            <div className="trekantVedTaleboble"></div>
+                        </div>
                         <img className="Merlin" src="Billede1.png" alt="Merlin"></img>
                     </div>
 

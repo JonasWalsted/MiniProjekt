@@ -14,8 +14,9 @@
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-/*taleboble*/
+/*Taleboble - MÅ IKKE ÆNDRES, KOPIERES eller PILLES VED*/
 .bubble{
+  position: absolute;
   background-color: ivory;
   text-align: center;
   border-radius: 30px;
@@ -26,18 +27,20 @@
 }
 
 
-/*Nederste trekant i boblen*/
+/*Nederste trekant i boblen - MÅ IKKE ÆNDRES, KOPIERES eller PILLES VED*/
 .trekantVedTaleboble{
   position: absolute;
   border-right: 60px solid #FFF;
   border-bottom: 80px solid transparent;
   top: 100px;
-  left: 1.5cm;
+  left: 1cm;
 }
 
+/*Merlin - MÅ IKKE ÆNDRES, KOPIERES eller PILLES VED*/
 .Merlin{
   position: absolute;
-  top: 4.5cm;
+  top: 12em;
+  left: -25px;
 }
 
 

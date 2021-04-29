@@ -1,20 +1,3 @@
-/*Merlin*/
-.Merlin{
-    display: block;
-    margin-left: 35em;
-    margin-right: auto;
-    margin-top: 150px;
-  
-}
-  
-  /*Taleboble*/
-  .bubble{
-      width: 200px;
-      height: 100px;
-      margin-left: 22%;
-      top: 90px;
-}
-  
   .body{
     position: fixed;
     top: 0;
@@ -25,6 +8,13 @@
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     background-position: center; /* Center the image */
+}
+
+/*Flyt Merlin og talebobbel sammen*/
+.Merlin_box3{
+    position: relative;
+    top: 3em;
+    left: 25em;
 }
   
 .buttons > * {

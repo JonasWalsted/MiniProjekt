@@ -10,10 +10,11 @@
   background-position: center; /* Center the image */
 }
 
+/*Flyt Merlin og talebobbel sammen*/
 .Merlin_box1{
   position: relative;
   width: auto;
-  left: 60em;
+  left: 62em;
   top: 3em;
 }
 
