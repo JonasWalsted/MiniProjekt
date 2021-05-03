@@ -10,7 +10,7 @@ class Instruks extends React.Component {
             <div className="body" >
                 <div className="Design">
                     <div className="tekstHeader">
-                        <b>Instruks</b>
+                        <b>Instrugvhiviuks</b>
                     </div>
 
                     <div className="Merlin_box3">
