@@ -1,29 +1,31 @@
 import React from 'react';
 import { Field, reduxForm } from 'redux-form';
-
+import { BrowserRouter, Route, Link } from 'react-router-dom';
 const SimpleForm = props => {
   const { handleSubmit, pristine, reset, submitting } = props;
+
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <label>First Name</label>
+        <label>Fornavn</label>
         <div>
           <Field
             name="firstName"
             component="input"
             type="text"
-            placeholder="First Name"
+            placeholder="Fornavn"
           />
         </div>
+
       </div>
       <div>
-        <label>Last Name</label>
+        <label>Efternavn</label>
         <div>
           <Field
             name="lastName"
             component="input"
             type="text"
-            placeholder="Last Name"
+            placeholder="Efternavn"
           />
         </div>
       </div>
@@ -44,23 +46,32 @@ const SimpleForm = props => {
           <label>
             <Field name="sex" component="input" type="radio" value="male" />
             {' '}
-            Male
+            Mand
           </label>
           <label>
             <Field name="sex" component="input" type="radio" value="female" />
+            {'  '}
+            Kvinde
+          </label>
+          <label>
+            <Field name="sex" component="input" type="radio" value="Other" />
             {' '}
-            Female
+            Andet
           </label>
         </div>
       </div>
       <div>
       </div>
-  
+
 
       <div>
-        <button type="submit" disabled={pristine || submitting}>Submit</button>
-        <button type="button" disabled={pristine || submitting} onClick={reset}>
-          Clear Values
+
+
+        <button className="ui next button" type="submit" disabled={pristine || submitting}>
+          Tilføj
+        </button>
+        <button className="ui next button" type="button" disabled={pristine || submitting} onClick={reset}>
+          Fjern indhold
         </button>
       </div>
     </form>

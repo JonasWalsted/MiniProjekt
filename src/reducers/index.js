@@ -32,7 +32,7 @@ const agegroupReducer = (selectedAgeGroup = null, action) => {
 
 export default combineReducers({
     auth: authReducer,
-  form: reduxFormReducer, // mounted under "form"
+    form: reduxFormReducer, // mounted under "form"
     ageGroups: agegroup,
     selectedAgeGroup: agegroupReducer,
 

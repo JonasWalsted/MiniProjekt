@@ -16,12 +16,8 @@ import SimpleForm from "./components/Demographics/./SimpleForm";
 const store = createStore(reducers);
 
 ReactDOM.render(
-
   <Provider store={store}>
 <App/>
-
-
-
   </Provider>,
   document.querySelector('#root'),
 

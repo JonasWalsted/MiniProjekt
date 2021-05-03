@@ -5,8 +5,15 @@ import SimpleForm from './SimpleForm';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import '../Template.css';
 import './Demographics.css';
+import { Values } from "redux-form-website-template";
+import Store1 from './store1';
+import { Field, reduxForm } from 'redux-form';
+import showResults from "./showResult";
 
-const Demografi = () => {
+const Demografi = (props) => {
+
+
+
   return (
 
 
@@ -15,11 +22,15 @@ const Demografi = () => {
           <b class="ui dividing header">PERSONLIGE INFORMATIONER</b>
       </div>
 
-      <div className="nameInput">
-          <div><SimpleForm/></div>
-      </div>
+
 
       <div className="Design">
+      <div className="nameInput">
+
+      <SimpleForm onSubmit={showResults} />
+
+
+      </div>
         <div className="aldersgruppe">
           <div><h1> Hvilken aldersgruppe tilhører du? </h1></div>
           <p>    <QuestionList /></p>
@@ -37,9 +48,6 @@ const Demografi = () => {
             <img className="Merlin" src="Billede1.png" alt="Merlin"></img>
           </div>
         </div>
-
-
-
         <div className="tilbage">
           <button className="ui back button">
             <Link to="/"> Tilbage </Link>
@@ -55,5 +63,7 @@ const Demografi = () => {
     </div>
   );
 }
+
+
 
 export default Demografi;
