@@ -6,7 +6,7 @@ const SimpleForm = props => {
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <label>First Name</label>
+        <label>Fornavn</label>
         <div>
           <Field
             name="firstName"
@@ -55,7 +55,7 @@ const SimpleForm = props => {
       </div>
       <div>
       </div>
-  
+
 
       <div>
         <button type="submit" disabled={pristine || submitting}>Submit</button>
