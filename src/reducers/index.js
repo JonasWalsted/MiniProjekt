@@ -1,6 +1,6 @@
-import { combineReducers } from 'redux';
+import { combineReducers, createStore } from 'redux';
 import authReducer from './authReducer';
-
+import { reducer as reduxFormReducer } from 'redux-form';
 
 const agegroup = () => {
   return [
@@ -27,9 +27,12 @@ const agegroupReducer = (selectedAgeGroup = null, action) => {
 
 
 
+
+
+
 export default combineReducers({
     auth: authReducer,
-
+  form: reduxFormReducer, // mounted under "form"
     ageGroups: agegroup,
     selectedAgeGroup: agegroupReducer,
 
