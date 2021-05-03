@@ -18,7 +18,7 @@ class Introduktion extends React.Component {
 
                     <div className="Merlin_box3">
                         <div className="bubble">
-                            <p>Hej! Jeg hedder Merlin <br /> Velkommen til dette forsøg</p>
+                            <p>Vi skal nu bruge nogle ting til at lege med Mario. <br /> Tryk på skruetrækkeren når du har fundet en</p>
                             <div className="trekantVedTaleboble"></div>
                         </div>
                         <img className="Merlin" src="Billede1.png" alt="Merlin"></img>
@@ -26,14 +26,14 @@ class Introduktion extends React.Component {
 
                     <div className="tilbage">
                         <button className="large ui back button">
-                              <Link to="/PageTwo"> Tilbage </Link>
-              </button>
+                            <Link to="/PageTwo"> Tilbage </Link>
+                        </button>
 
-              <div className="Naste">
-                <button className="large ui next button">
-                  <Link to="/PageFour"> Næste </Link>
-                </button>
-              </div>
+                        <div className="Naste">
+                            <button className="large ui next button">
+                                <Link to="/PageFour"> Næste </Link>
+                            </button>
+                        </div>
                     </div>
                     <div className="Billede1">
                         <img onClick={this.imageClick} className="Skruetrakker" src="Skruetrakker.png" alt="Skruetrækker"></img>
