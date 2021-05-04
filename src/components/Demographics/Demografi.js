@@ -1,7 +1,7 @@
 import React from 'react';
 import QuestionList from './QuestionList';
 import QuestionDetail from './QuestionDetail';
-import SimpleForm from './SimpleForm';
+import StreamCreate from './streamCreate';
 import { Link } from 'react-router-dom';
 import '../Template.css';
 import './Demographics.css';
@@ -28,8 +28,8 @@ const Demografi = (props) => {
       <div className="Design">
       <div className="nameInput">
 
-    <SimpleForm/>
 
+<StreamCreate />
 
       </div>
         <div className="aldersgruppe">
