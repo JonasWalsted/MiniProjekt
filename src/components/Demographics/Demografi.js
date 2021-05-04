@@ -2,13 +2,13 @@ import React from 'react';
 import QuestionList from './QuestionList';
 import QuestionDetail from './QuestionDetail';
 import SimpleForm from './SimpleForm';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../Template.css';
 import './Demographics.css';
-import { Values } from "redux-form-website-template";
-import Store1 from './store1';
-import { Field, reduxForm } from 'redux-form';
-import showResults from "./showResult";
+
+
+
+
 
 const Demografi = (props) => {
 
@@ -18,6 +18,7 @@ const Demografi = (props) => {
 
 
     <div className="body">
+
       <div className="tekstHeader">
           <b class="ui dividing header">PERSONLIGE INFORMATIONER</b>
       </div>
@@ -27,7 +28,7 @@ const Demografi = (props) => {
       <div className="Design">
       <div className="nameInput">
 
-      <SimpleForm onSubmit={showResults} />
+    <SimpleForm/>
 
 
       </div>

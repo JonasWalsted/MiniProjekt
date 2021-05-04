@@ -1,83 +1,81 @@
 import React from 'react';
 import { Field, reduxForm } from 'redux-form';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
-const SimpleForm = props => {
-  const { handleSubmit, pristine, reset, submitting } = props;
+import '../Template.css';
 
-  return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label>Fornavn</label>
-        <div>
-          <Field
-            name="firstName"
-            component="input"
-            type="text"
-            placeholder="Fornavn"
+
+class SimpleForm extends React.Component {
+
+  renderError({ error, touched}) {
+    if(touched && error) {
+      return (
+        <div className="ui error message">
+            <div className="header">{error}</div>
+        </div>
+      );
+    }
+  }
+
+
+
+
+
+  renderInput = ({input, label, meta}) => {
+    const className = `field ${meta.error && meta.touched ? 'error': ''}`;
+    return (
+      <div className="{className}">
+        <label>{label}</label>
+        <input {...input} />
+
+        {this.renderError(meta)}
+      </div>
+    );
+  }
+
+  onSubmit(formValues){
+    console.log(formValues);
+  }
+
+  render() {
+    return (
+      <form
+        onSubmit={this.props.handleSubmit(this.onSubmit)}
+        className="ui form error"
+        >
+
+        <Field
+          name="title"
+          component={this.renderInput}
+          label="Fornavn"
           />
-        </div>
 
-      </div>
-      <div>
-        <label>Efternavn</label>
-        <div>
-          <Field
-            name="lastName"
-            component="input"
-            type="text"
-            placeholder="Efternavn"
-          />
-        </div>
-      </div>
-      <div>
-        <label>Email</label>
-        <div>
-          <Field
-            name="email"
-            component="input"
-            type="email"
-            placeholder="Email"
-          />
-        </div>
-      </div>
-      <div>
-        <label>Sex</label>
-        <div>
-          <label>
-            <Field name="sex" component="input" type="radio" value="male" />
-            {' '}
-            Mand
-          </label>
-          <label>
-            <Field name="sex" component="input" type="radio" value="female" />
-            {'  '}
-            Kvinde
-          </label>
-          <label>
-            <Field name="sex" component="input" type="radio" value="Other" />
-            {' '}
-            Andet
-          </label>
-        </div>
-      </div>
-      <div>
-      </div>
+        <Field
+          name="description"
+          component={this.renderInput}
+          label="Efternavn"
+        />
+        <button className="ui botton primary">Submit</button>
 
+      </form>
+    );
+  }
+}
 
-      <div>
+const validate = formValues => {
+  const errors = {};
 
+  if(!formValues.title){
+    errors.title = 'Du skal indtaste fornavn';
+  }
 
-        <button className="ui next button" type="submit" disabled={pristine || submitting}>
-          Tilføj
-        </button>
-        <button className="ui next button" type="button" disabled={pristine || submitting} onClick={reset}>
-          Fjern indhold
-        </button>
-      </div>
-    </form>
-  );
+  if(!formValues.description){
+    errors.description = 'Du skal indtaste efternavn';
+  }
+
+  return errors;
 };
 
 export default reduxForm({
-  form: 'simple', // a unique identifier for this form
+  form: 'streamCreate',
+  validate
+
 })(SimpleForm);

@@ -9,10 +9,10 @@ import Remedier from './Remeider/Remeider';
 import Instruks from './Instruks/Instruks';
 import Instruks1 from './Instruks/Instruks1';
 import Instruks2 from './Instruks/Instruks2';
-import { Values } from "redux-form-website-template";
 
-import showResults from "../components/Demographics/showResult";
-import SimpleForm from "../components/Demographics/SimpleForm";
+
+
+
 
 
 
