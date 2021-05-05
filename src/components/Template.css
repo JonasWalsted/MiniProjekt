@@ -30,7 +30,7 @@
 /*Nederste trekant i boblen - MÅ IKKE ÆNDRES, KOPIERES eller PILLES VED*/
 .trekantVedTaleboble{
   position: absolute;
-  border-right: 60px solid #FFF;
+  border-right: 60px solid ivory;
   border-bottom: 80px solid transparent;
   top: 100px;
   left: 1cm;
