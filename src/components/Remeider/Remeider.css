@@ -34,6 +34,10 @@
     top: 45em;
 }
 
+p{
+    padding: 0.5em;
+}
+
 .Billede1 img{
     margin-left: 50em;
     margin-top: 10em;
@@ -41,4 +45,9 @@
     cursor: pointer;
 }
 
-
+.Billede2 img{
+    margin-left: 52em;
+    margin-top: 2em;
+    padding:0;
+    cursor: pointer;
+}

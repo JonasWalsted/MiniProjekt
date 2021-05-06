@@ -7,12 +7,10 @@ import './Introduktion.css';
 
 const Introduktion = () => {
   return (
-
-
     <div className="body">
       <div className="Design">
         <div className="tekstHeader">
-          <b  class="ui dividing header">Velkommen</b>
+          <b class="ui dividing header">Velkommen</b>
         </div>
 
         <div className="Merlin_box1">
