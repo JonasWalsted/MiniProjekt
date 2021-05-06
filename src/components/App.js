@@ -2,6 +2,7 @@ import React from 'react';
 import { Router, Route } from 'react-router-dom';
 import Introduktion from './Introduction/Introduktion';
 import Demografi from './Demographics/Demografi';
+import Demografi2 from './Demographics/Demografi2';
 import Video from './Video/Video';
 import history from '../history';
 import ForsteSide from './Google_Login/ForsteSide';
@@ -35,10 +36,17 @@ const PageOne = () => {
 const PageTwo = () => {
   return (<div>
     <Demografi />
-
       </div>
   );
 };
+
+const PageTwoDotFive = () => {
+  return (<div>
+    <Demografi2 />
+      </div>
+  );
+};
+
 const PageThree = () => {
   return <div>
     <Remedier />
@@ -82,6 +90,7 @@ const App = () => {
         <Route path="/" exact component={PageOneOne} />
         <Route path="/PageOne" component={PageOne} />
         <Route path="/pageTwo" component={PageTwo} />
+          <Route path="/PageTwoDotFive" component={PageTwoDotFive} />
         <Route path="/PageThree" component={PageThree} />
         <Route path="/PageFour" component={PageFour} />
         <Route path="/PageFive" component={PageFive} />

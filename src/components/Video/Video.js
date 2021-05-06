@@ -53,7 +53,7 @@ const a = () => {
             </div>
             <img className="Merlin" src="Billede1.png" alt="Merlin"></img>
         </div>
-        <div className="app__container"> 
+        <div className="app__container">
             <video
               height={HEIGHT}
               width={WIDTH}

@@ -1,8 +1,7 @@
 import React from 'react';
 import QuestionList from './QuestionList';
 import QuestionDetail from './QuestionDetail';
-import StreamCreate from './StreamCreate';
-import StreamList from './StreamList';
+
 import { Link } from 'react-router-dom';
 import '../Template.css';
 import './Demographics.css';
@@ -30,15 +29,19 @@ const Demografi = (props) => {
       <div className="nameInput">
 
 
-<StreamCreate />
-<StreamList />
+
 
       </div>
-
+        <div className="aldersgruppe">
+          <div><h1> Hvilken aldersgruppe tilhører du? </h1></div>
+          <p>    <QuestionList /></p>
+          <br />
+          <p>     <QuestionDetail /></p>
+        </div>
 
         <div className="Merlin_box2">
           <div className="bubble">
-            <p>Jeg har faktisk ikke fået dit navn?<br /> Hvis i er flere, så indtast navnene en af gangen</p>
+            <p>Jeg har asfdsadgfdsf ikke fået dit navn. Hvad hedder du? <br />Hvor gammel er du og hvor bor du?</p>
             <div className="trekantVedTaleboble">
             </div>
           </div>
@@ -48,13 +51,13 @@ const Demografi = (props) => {
         </div>
         <div className="tilbage">
           <button className="ui back button">
-            <Link to="/PageOne"> Tilbage </Link>
+            <Link to="/pageTwo"> Tilbage </Link>
           </button>
         </div>
 
         <div className="Naste">
           <button className="ui next button">
-               <Link to="/PageTwoDotFive"> Næste </Link>
+           Næste
           </button>
         </div>
       </div>
