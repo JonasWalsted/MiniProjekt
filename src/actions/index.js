@@ -1,5 +1,7 @@
-import streams from '../apis/streams'
+import streams from '../apis/streams';
 import {
+  SIGN_IN,
+  SIGN_OUT,
   CREATE_STREAM,
   FETCH_STREAMS,
   FETCH_STREAM,
@@ -8,26 +10,6 @@ import {
 } from './types';
 
 
-export const signIn = (userId) => {
-    return {
-        type: 'SIGN_IN',
-        payload: userId
-    };
-};
-export const signOut = () => {
-    return {
-        type: 'SIGN_OUT'
-    };
-};
-
-// Action creator
-export const selectQuestion = question => {
-  // Return an action
-  return {
-    type: 'AGEGROUP_SELECTED',
-    payload: question
-  };
-};
 
 export const createStream = formValues => async dispatch => {
   const response = await streams.post('/streams', formValues);
@@ -57,4 +39,27 @@ export const deleteStream = id => async dispatch => {
   await streams.delete(`/streams/${id}`);
 
   dispatch({ type: DELETE_STREAM, payload: id });
+};
+
+
+
+export const signIn = (userId) => {
+    return {
+        type: 'SIGN_IN',
+        payload: userId
+    };
+};
+export const signOut = () => {
+    return {
+        type: 'SIGN_OUT'
+    };
+};
+
+// Action creator
+export const selectQuestion = question => {
+  // Return an action
+  return {
+    type: 'AGEGROUP_SELECTED',
+    payload: question
+  };
 };
