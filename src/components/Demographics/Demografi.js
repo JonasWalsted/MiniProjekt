@@ -2,6 +2,7 @@ import React from 'react';
 import QuestionList from './QuestionList';
 import QuestionDetail from './QuestionDetail';
 import StreamCreate from './streamCreate';
+import StreamList from './streamList';
 import { Link } from 'react-router-dom';
 import '../Template.css';
 import './Demographics.css';
@@ -30,6 +31,7 @@ const Demografi = (props) => {
 
 
 <StreamCreate />
+<StreamList />
 
       </div>
         <div className="aldersgruppe">
