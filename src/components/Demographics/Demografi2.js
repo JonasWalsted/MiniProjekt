@@ -20,18 +20,18 @@ const Demografi = (props) => {
     <div className="body">
 
       <div className="tekstHeader">
-          <b class="ui dividing header">PERSONLIGE INFORMATIONER</b>
+        <b class="ui dividing header">PERSONLIGE INFORMATIONER</b>
       </div>
 
 
 
       <div className="Design">
-      <div className="nameInput">
+        <div className="nameInput">
 
 
 
 
-      </div>
+        </div>
         <div className="aldersgruppe">
           <div><h1> Hvilken aldersgruppe tilhører du? </h1></div>
           <p>    <QuestionList /></p>
@@ -56,9 +56,11 @@ const Demografi = (props) => {
         </div>
 
         <div className="Naste">
-          <button className="ui next button">
-           Næste
+          <Link to="/PageThree">
+            <button className="ui next button">
+              Næste
           </button>
+          </Link>
         </div>
       </div>
     </div>

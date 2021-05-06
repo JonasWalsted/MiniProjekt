@@ -1,13 +1,12 @@
 import React from 'react';
 import Introduktion from './components/Introduction/Introduktion';
-import Demografi from './components/Demographics/Demografi';
+import Demografi2 from './components/Demographics/Demografi2';
 import Video from './components/Video/Video';
 import ForsteSide from './components/Google_Login/ForsteSide';
 import Remedier from './components/Remeider/Remedier';
 import Instruks from './components/Instruks/Instruks';
 import Instruks1 from './components/Instruks/Instruks1';
 import Instruks2 from './components/Instruks/Instruks2';
-
 
 
 const PageOneOne = () => {
@@ -26,9 +25,9 @@ const PageOne = () => {
     );
 };
 
-const PageTwo = () => {
+const PageTwoDotFive = () => {
     return (<div>
-        <Demografi />
+        <Demografi2 />
 
     </div>
     );
@@ -65,4 +64,4 @@ const PageSeven = () => {
     </div>
 };
 
-export { PageOneOne, PageOne, PageTwo, PageThree, PageFour, PageFive, PageSix, PageSeven }
+export { PageOneOne, PageOne, PageTwoDotFive, PageThree, PageFour, PageFive, PageSix, PageSeven }

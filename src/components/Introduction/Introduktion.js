@@ -23,7 +23,7 @@ const Introduktion = () => {
 
         <div className="Naste">
           <button className="large ui next button">
-            <Link to="/pagetwo"> Næste </Link>
+            <Link to="/pagetwodotfive"> Næste </Link>
           </button>
         </div>
 
