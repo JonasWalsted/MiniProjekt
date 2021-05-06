@@ -1,54 +1,29 @@
 {
   "streams": [
     {
-      "title": "Sir ",
-      "description": "fin fyr",
+      "title": "j",
+      "description": "j",
       "id": 1
     },
     {
-      "title": "Jonas",
-      "description": "Walsted",
+      "title": "jh",
+      "description": "jhgj",
       "id": 2
     },
     {
-      "title": "Jonas",
-      "description": "Walsted",
+      "title": "jh",
+      "description": "jhgj",
       "id": 3
     },
     {
-      "title": "Jonas",
-      "description": "Walsted",
+      "title": "dsfsdf",
+      "description": "dsfsdfsd",
       "id": 4
     },
     {
-      "title": "Jonas",
-      "description": "Walsted",
+      "title": "Jonas Søvind",
+      "description": "Walsted - Magi er nice på pdp8 React",
       "id": 5
-    },
-    {
-      "title": "Jonas",
-      "description": "Walsted",
-      "id": 6
-    },
-    {
-      "title": "Jonas",
-      "description": "Walsted",
-      "id": 7
-    },
-    {
-      "title": "Jonas",
-      "description": "Walsted",
-      "id": 8
-    },
-    {
-      "title": "Jonas",
-      "description": "Walsted",
-      "id": 9
-    },
-    {
-      "title": "Jonas",
-      "description": "Walsted",
-      "id": 10
     }
   ]
 }
