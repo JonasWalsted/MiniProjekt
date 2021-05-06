@@ -13,7 +13,7 @@ function Video() {
 
 	const startVideo = () => {
 		setPlaying(true);
-		navigator.getUserMedia(
+		navigator.mediaDevices.getUserMedia(
 			{
 				video: true,
 			},
@@ -42,34 +42,34 @@ const a = () => {
 
     <div className="body">
       <div className="Design">
-      <div className="tekstHeader">
-          <b>Velkommen</b>
-      </div>
+        <div className="tekstHeader">
+            <b>Velkommen</b>
+        </div>
 
-      <div className="Merlin_box3">
-          <div className="bubble">
-              <p>  Indstil kameraet<br />  så man kan se dig og LEGO'et på bordet <br /> Tryk <b>start</b>, for at starte videoen</p>
-              <div className="trekantVedTaleboble"></div>
+        <div className="Merlin_box3">
+            <div className="bubble">
+                <p>  Indstil kameraet<br />  så man kan se dig og LEGO'et på bordet <br /> Tryk <b>start</b>, for at starte videoen</p>
+                <div className="trekantVedTaleboble"></div>
+            </div>
+            <img className="Merlin" src="Billede1.png" alt="Merlin"></img>
+        </div>
+        <div className="app__container"> 
+            <video
+              height={HEIGHT}
+              width={WIDTH}
+              muted
+              autoPlay
+              className="app__videoFeed"
+            >
+            </video>
           </div>
-          <img className="Merlin" src="Billede1.png" alt="Merlin"></img>
-      </div>
-      <div className="app__container">
-          <video
-            height={HEIGHT}
-            width={WIDTH}
-            muted
-            autoPlay
-            className="app__videoFeed"
-          >
-          </video>
-        </div>
-        <div className="app__input">
-         {playing ? (
-            <button onClick={stopVideo}>Stop</button>
-          ) : (
-            <button onClick={startVideo}>Start</button>
-          )}
-        </div>
+          <div className="app__input">
+          {playing ? (
+              <button onClick={stopVideo}>Stop</button>
+            ) : (
+              <button onClick={startVideo}>Start</button>
+            )}
+          </div>
         </div>
 
         <div className="Naste">
