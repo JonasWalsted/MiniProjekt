@@ -19,7 +19,7 @@ class StreamCreate extends React.Component {
     return (
       <div className={className}>
         <label>{label}</label>
-        <input {...input} autoComplete="off" />
+        <input {...input} />
         {this.renderError(meta)}
       </div>
     );

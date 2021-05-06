@@ -1,7 +1,7 @@
 import { combineReducers, createStore } from 'redux';
 import authReducer from './authReducer';
 import { reducer as reduxFormReducer } from 'redux-form';
-
+import streamReducer from './streamReducer';
 const agegroup = () => {
   return [
     { title: '0 - 6 år' },
@@ -35,6 +35,6 @@ export default combineReducers({
   form: reduxFormReducer,
     ageGroups: agegroup,
     selectedAgeGroup: agegroupReducer,
-
+    streams: streamReducer
 
 });
