@@ -6,7 +6,7 @@ import Demografi2 from './Demographics/Demografi2';
 import Video from './Video/Video';
 import history from '../history';
 import ForsteSide from './Google_Login/ForsteSide';
-import Remedier from './Remeider/Remeider';
+import Remedier from './Remeider/Remedier';
 import Instruks from './Instruks/Instruks';
 import Instruks1 from './Instruks/Instruks1';
 import Instruks2 from './Instruks/Instruks2';
@@ -40,10 +40,14 @@ const PageTwo = () => {
   );
 };
 
+<<<<<<< HEAD
 const PageTwoDotFive = () => {
   return (<div>
     <Demografi2 />
       </div>
+=======
+  </div>
+>>>>>>> a66ed10ea709fb76cfa9d070e79b04af4a8e6b88
   );
 };
 

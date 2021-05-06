@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import GoogleAuth from './GoogleAuth';
 import { Link } from 'react-router-dom';
 import '../Template.css';
+import '../Introduction/Introduktion.css';
 
 
-const Modal = props => {
+const Modal = () => {
     return ReactDOM.createPortal(
         <div className="ui dimmer modals visible active">
             <div className="ui standard modal visible active">
