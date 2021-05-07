@@ -2,7 +2,7 @@ import React from 'react';
 import { Router, Route } from 'react-router-dom';
 
 import history from '../history';
-import { PageOneOne, PageOne, PageTwo, PageTwoDotFive, PageThree, PageFour, PageFive, PageSix, PageSeven } from '../Struktur';
+import { PageOneOne, PageOne, PageTwo, PageTwoDotFive, PageThree, PageFour, PageFive, PageSix, PageSeven, PageEight, PageNine } from '../Struktur';
 
 
 const App = () => {
@@ -18,6 +18,9 @@ const App = () => {
         <Route path="/PageFive" component={PageFive} />
         <Route path="/PageSix" component={PageSix} />
         <Route path="/PageSeven" component={PageSeven} />
+        <Route path="/PageEight" component={PageEight} />
+          <Route path="/PageNine" component={PageNine} />
+
       </Router>
     </div>
   )

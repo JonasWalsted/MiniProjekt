@@ -8,8 +8,8 @@ import Remedier from './components/Remeider/Remedier';
 import Instruks from './components/Instruks/Instruks';
 import Instruks1 from './components/Instruks/Instruks1';
 import Instruks2 from './components/Instruks/Instruks2';
-
-
+import PostSporgsmal from './components/PostSporgsmal/PostSporgsmal';
+import Afslutning from './components/Afslutning/Afslutning';
 const PageOneOne = () => {
     return (
         <div className="Hej">
@@ -74,4 +74,18 @@ const PageSeven = () => {
     </div>
 };
 
-export { PageOneOne, PageOne, PageTwo, PageTwoDotFive, PageThree, PageFour, PageFive, PageSix, PageSeven }
+
+const PageEight = () => {
+    return <div>
+        <PostSporgsmal />
+    </div>
+};
+
+const PageNine = () => {
+    return <div>
+        <Afslutning />
+    </div>
+};
+
+
+export { PageOneOne, PageOne, PageTwo, PageTwoDotFive, PageThree, PageFour, PageFive, PageSix, PageSeven, PageEight, PageNine }
