@@ -1,3 +1,36 @@
+Hej, og velkommen til denne website prototype af PDP8 gr880.
+
+Følgende er en guide til opsætning og start af hjemmesiden.
+
+# Førstegangs opsætning
+Inden prototypen kan køres skal en række libraries installeres. 
+Dette gøres på føgende måde;
+
+    1)  Find filplaceringen på prototypens repocitory.
+            Åbnes prototypen via GitHub desktop kan filplaceringen findes ved at navigere til menuen Repository - Show in Explorer
+            eller bruge genvejstasterne CTRL + skift + F
+    2)  Åben kommandoprompt på computeren
+    3)  Indtast "cd " og filplaceringen til prototypens repocitory
+            Eksempelvis "cd C:\Users\kokke\Documents\GitHub\MP_CSS\MiniProjekt"
+    4)  Installér Redux Form ved at indtaste "npm install --save redux-form" i kommandopropten
+    5)  Installér React Router ved at indtaste "npm install --save react-router-dom" i kommandoprompten
+    6)  Installér Axios og Redux Thunk ved at indtaste "npm install --save axios redux-thunk"
+
+
+# Start af api server og hjemmeside
+    1)  Åben to kommandoprompt terminaler
+    2)  I den første terminal, naviger til prototypens api repocitory
+            Eksempelvis "cd C:\Users\kokke\Documents\GitHub\MP_CSS\MiniProjekt\api"
+    3)  Indtast "npm start" i den første kommadoprompt terminal
+    4)  I den anden terminal, naviger til prototypens repocitory
+            Eksempelvis "cd C:\Users\kokke\Documents\GitHub\MP_CSS\MiniProjekt"
+    5)  Indtast "npm start" i den anden kommadoprompt terminal
+    6)  Åben prototypen i Google Chrome med url "https://localhost:3000/"
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
