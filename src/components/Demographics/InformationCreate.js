@@ -3,7 +3,7 @@ import { Field, reduxForm } from 'redux-form';
 import { connect } from 'react-redux';
 import { createStream } from '../../actions';
 
-class StreamCreate extends React.Component {
+class InformationCreate extends React.Component {
   renderError({ error, touched }) {
     if (touched && error) {
       return (
@@ -35,13 +35,18 @@ class StreamCreate extends React.Component {
         onSubmit={this.props.handleSubmit(this.onSubmit)}
         className="ui form error"
       >
-        <Field name="title" component={this.renderInput} label="Enter Title" />
         <Field
-          name="description"
+          name="fornavn"
           component={this.renderInput}
-          label="Enter Description"
+          label="Indtast fornavn"
         />
-        <button className="ui button primary">Submit</button>
+
+        <Field
+          name="efternavn"
+          component={this.renderInput}
+          label="Indtast efternavn"
+        />
+        <button className="ui button primary">Indtast</button>
       </form>
     );
   }
@@ -50,21 +55,21 @@ class StreamCreate extends React.Component {
 const validate = formValues => {
   const errors = {};
 
-  if (!formValues.title) {
-    errors.title = 'You must enter a title';
+  if (!formValues.fornavn) {
+    errors.fornavn = 'Du skal indtaste et fornavn';
   }
 
-  if (!formValues.description) {
-    errors.description = 'You must enter a description';
+  if (!formValues.efternavn) {
+    errors.efternavn = 'Du skal indtaste et efternavn';
   }
 
   return errors;
 };
 
 const formWrapped = reduxForm({
-  form: 'streamCreate',
+  form: 'InformationCreate',
   validate
-})(StreamCreate);
+})(InformationCreate);
 
 export default connect(
   null,

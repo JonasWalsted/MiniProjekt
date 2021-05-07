@@ -1,8 +1,8 @@
 import React from 'react';
 import QuestionList from './QuestionList';
 import QuestionDetail from './QuestionDetail';
-import StreamCreate from './StreamCreate';
-import StreamList from './StreamList';
+import InformationCreate from './InformationCreate';
+import InformationList from './InformationList';
 import { Link } from 'react-router-dom';
 import '../Template.css';
 import './Demographics.css';
@@ -30,8 +30,8 @@ const Demografi = (props) => {
       <div className="nameInput">
 
 
-<StreamCreate />
-<StreamList />
+<InformationCreate />
+<InformationList />
 
       </div>
 
@@ -54,7 +54,7 @@ const Demografi = (props) => {
 
         <div className="Naste">
           <button className="ui next button">
-               <Link to="/PageTwoDotFive"> Næste </Link>
+               <Link to="/PageTwo"> Næste </Link>
           </button>
         </div>
       </div>

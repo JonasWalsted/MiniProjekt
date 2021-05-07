@@ -1,5 +1,6 @@
 import React from 'react';
 import Introduktion from './components/Introduction/Introduktion';
+import Demografi from './components/Demographics/Demografi';
 import Demografi2 from './components/Demographics/Demografi2';
 import Video from './components/Video/Video';
 import ForsteSide from './components/Google_Login/ForsteSide';
@@ -24,6 +25,15 @@ const PageOne = () => {
         </div>
     );
 };
+
+const PageTwo = () => {
+    return (<div>
+        <Demografi />
+
+    </div>
+    );
+};
+
 
 const PageTwoDotFive = () => {
     return (<div>
@@ -64,4 +74,4 @@ const PageSeven = () => {
     </div>
 };
 
-export { PageOneOne, PageOne, PageTwoDotFive, PageThree, PageFour, PageFive, PageSix, PageSeven }
+export { PageOneOne, PageOne, PageTwo, PageTwoDotFive, PageThree, PageFour, PageFive, PageSix, PageSeven }
