@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './PostSporgsmal.css'
 import { Link } from 'react-router-dom';
 
 
@@ -8,12 +9,21 @@ import { Link } from 'react-router-dom';
 const PostSporgsmal = () => {
   return (
     <div className="body">
-      <div className="Design">
-        <div className="tekstHeader">
-          <b class="ui dividing header">Spørgsmål</b>
-        </div>
 
-        <div className="Merlin_box1">
+      <div className="tekstHeader"> 
+        <b class="ui dividing header">Spørgsmål</b>
+      </div>
+
+      <div className="Design">
+
+        <div className="questionBox">
+          <div className="questionText">
+            <b>Hvad synes du om CSS?</b>  
+          </div>
+          
+        </div>  
+
+        <div className="Merlin_box2">
           <div className="bubble">
             <p><br/>Så mangler vi bare nogle få spørgsmål </p>
             <div className="trekantVedTaleboble"></div>

@@ -5,6 +5,12 @@
       "efternavn": "ælø",
       "fornavn": "ælø",
       "id": 1
+    },
+    {
+      "fornavn": "Frederik",
+      "efternavn": "Kok",
+      "email": "næh!",
+      "id": 2
     }
   ]
 }

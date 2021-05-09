@@ -20,19 +20,13 @@ const Demografi = (props) => {
     <div className="body">
 
       <div className="tekstHeader">
-        <b class="ui dividing header">PERSONLIGE INFORMATIONER</b>
+        <b className="ui dividing header">PERSONLIGE INFORMATIONER</b>
       </div>
 
 
 
       <div className="Design">
-        <div className="nameInput">
-
-
-
-
-        </div>
-        <div className="aldersgruppe">
+        <div className="DemographicInput">
           <div><h1> Hvilken aldersgruppe tilhører du? </h1></div>
           <p>    <QuestionList /></p>
           <br />
@@ -41,7 +35,7 @@ const Demografi = (props) => {
 
         <div className="Merlin_box2">
           <div className="bubble">
-            <p>Jeg har asfdsadgfdsf ikke fået dit navn. Hvad hedder du? <br />Hvor gammel er du og hvor bor du?</p>
+            <p>Dejligt at møde dig! <br />Hvor gammel er du?</p>
             <div className="trekantVedTaleboble">
             </div>
           </div>
@@ -56,11 +50,9 @@ const Demografi = (props) => {
         </div>
 
         <div className="Naste">
-          <Link to="/PageThree">
             <button className="ui next button">
-              Næste
+              <Link to="/PageThree">Næste</Link>
           </button>
-          </Link>
         </div>
       </div>
     </div>

@@ -8,17 +8,21 @@
 */
 
 .app__container {
-	position: relative;
+	position: absolute;
 	margin-top: 10px;
 	width: 500px;
 	height: 500px;
-	left: 25em;
+	right: 25em;
 	z-index: -1;
 
 }
 
 .app__input {
 	position: absolute;
-	margin-top: 10px;
+	top: 550px;
 	right: 25em;
+}
+
+.app__videoFeed{
+	z-index: -1;
 }

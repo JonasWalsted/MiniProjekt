@@ -27,13 +27,10 @@ const Demografi = (props) => {
 
 
       <div className="Design">
-      <div className="nameInput">
-
-
-<InformationCreate />
-<InformationList />
-
-      </div>
+        <div className="DemographicInput">
+          <InformationCreate />
+          <InformationList />
+        </div>
 
 
         <div className="Merlin_box2">
@@ -54,7 +51,7 @@ const Demografi = (props) => {
 
         <div className="Naste">
           <button className="ui next button">
-               <Link to="/PageTwo"> Næste </Link>
+               <Link to="/PageTwoDotFive"> Næste </Link>
           </button>
         </div>
       </div>

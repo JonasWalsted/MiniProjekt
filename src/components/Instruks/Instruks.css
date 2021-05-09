@@ -34,10 +34,13 @@
   top: 45em;
 }
 
-.app{
-  margin-left: 15em;
-  margin-top: 0em;
-  margin-bottom: 20em;
-  padding:0;
+.phone_app_frame{
+  position: relative;
+  top: 10em;
+}
+
+.phone_app{
+  display: block;
+  margin: auto;
   cursor: pointer;
 }

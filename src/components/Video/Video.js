@@ -13,7 +13,7 @@ function Video() {
 
 	const startVideo = () => {
 		setPlaying(true);
-		navigator.mediaDevices.getUserMedia(
+		navigator.getUserMedia(
 			{
 				video: true,
 			},
@@ -61,7 +61,7 @@ const a = () => {
               autoPlay
               className="app__videoFeed"
             >
-            </video>
+            </video> 
           </div>
           <div className="app__input">
           {playing ? (

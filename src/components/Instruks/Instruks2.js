@@ -11,7 +11,7 @@ class Instruks2 extends React.Component {
             <div className="body" >
                 <div className="Design">
                     <div className="tekstHeader">
-                        <b>Instruks</b>
+                        <b class="ui dividing header">Instruks</b>
                     </div>
 
                     <div className="Merlin_box3">
@@ -20,12 +20,15 @@ class Instruks2 extends React.Component {
                             <div className="trekantVedTaleboble">
 
                             </div>
-                            <div> <img className="app" src="Punkt3.png" alt="Merlin"></img></div>
+                            
 
                         </div>
                         <img className="Merlin" src="Billede1.png" alt="Merlin"></img>
 
                     </div>
+
+                    <div className="phone_app_frame"> <img className="phone_app" src="Punkt3.png"></img></div>
+
                     <div className="Naste">
                       <button className="large ui next button">
                         <Link to="/PageEight"> Klaret! </Link>
