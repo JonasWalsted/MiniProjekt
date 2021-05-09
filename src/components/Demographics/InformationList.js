@@ -1,10 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { fetchStreams } from '../../actions';
+import { fetchInformation } from '../../actions';
 
 class InformationList extends React.Component {
   componentDidMount() {
-    this.props.fetchStreams();
+    this.props.fetchInformation();
   }
 
   renderList() {
@@ -14,7 +14,8 @@ class InformationList extends React.Component {
 
           <div className="content">
             Fornavn: {stream.fornavn} <br />
-            Efternavn: {stream.efternavn}
+            Efternavn: {stream.efternavn} <br />
+            Email: {stream.email}
             <div className="efternavn"></div>
           </div>
         </div>
@@ -38,5 +39,5 @@ const mapStateToProps = state => {
 
 export default connect(
   mapStateToProps,
-  { fetchStreams }
+  { fetchInformation }
 )(InformationList);

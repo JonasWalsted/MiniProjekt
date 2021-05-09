@@ -1,7 +1,7 @@
 import React from 'react';
 import { Field, reduxForm } from 'redux-form';
 import { connect } from 'react-redux';
-import { createStream } from '../../actions';
+import { createInformation } from '../../actions';
 
 class InformationCreate extends React.Component {
   renderError({ error, touched }) {
@@ -26,7 +26,7 @@ class InformationCreate extends React.Component {
   };
 
   onSubmit = formValues => {
-    this.props.createStream(formValues);
+    this.props.createInformation(formValues);
   };
 
   render() {
@@ -46,6 +46,13 @@ class InformationCreate extends React.Component {
           component={this.renderInput}
           label="Indtast efternavn"
         />
+
+        <Field
+          name="email"
+          component={this.renderInput}
+          label="Indtast email"
+        />
+
         <button className="ui button primary">Indtast</button>
       </form>
     );
@@ -62,6 +69,10 @@ const validate = formValues => {
   if (!formValues.efternavn) {
     errors.efternavn = 'Du skal indtaste et efternavn';
   }
+  if (!formValues.email) {
+    errors.email = 'Du skal indtaste en e-mailadresse';
+  }
+
 
   return errors;
 };
@@ -73,5 +84,5 @@ const formWrapped = reduxForm({
 
 export default connect(
   null,
-  { createStream }
+  { createInformation }
 )(formWrapped);
