@@ -66,7 +66,7 @@ const Introduktion = () => {
 
                 <div className="tilbage">
                     <button className="large ui back button">
-                        <Link to="/PageTwo"> Tilbage </Link>
+                        <Link to="/PageTwoDotFive"> Tilbage </Link>
                     </button>
 
                     <div className="Naste">

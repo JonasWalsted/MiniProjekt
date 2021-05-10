@@ -15,7 +15,7 @@ const Afslutning = () => {
 
         <div className="Merlin_box1">
           <div className="bubble">
-            <p><br/>Så mangler vi bare nogle få spørgsmål </p>
+            <p><br/>Det var det for denne gang! Mange tak for hjælpen, du kan bare lukke vinduet nu </p>
             <div className="trekantVedTaleboble"></div>
           </div>
           <img className="Merlin" src="Billede1.png" alt="Merlin"></img>
@@ -26,11 +26,7 @@ const Afslutning = () => {
             <Link to="/PageEight"> Tilbage </Link>
           </button>
         </div>
-        <div className="Naste">
-          <button className="large ui next button">
-            <Link to="/pageNine"> Afslut </Link>
-          </button>
-        </div>
+    
 
 
       </div>

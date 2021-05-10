@@ -27,9 +27,7 @@ function Video() {
 		);
 	};
 
-const a = () => {
 
-}
 	const stopVideo = () => {
 		setPlaying(false);
 		let video = document.getElementsByClassName('app__videoFeed')[0];
@@ -61,15 +59,19 @@ const a = () => {
               autoPlay
               className="app__videoFeed"
             >
-            </video> 
+            </video>
           </div>
+
           <div className="app__input">
-          {playing ? (
-              <button onClick={stopVideo}>Stop</button>
+
+				  {playing ? (
+              <button onClick={stopVideo} className="large ui next button">Stop video</button>
             ) : (
-              <button onClick={startVideo}>Start</button>
+              <button onClick={startVideo} className="large ui next button">Start video</button>
             )}
+
           </div>
+
         </div>
 
         <div className="Naste">

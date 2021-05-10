@@ -19,9 +19,9 @@ const PostSporgsmal = () => {
 
         <div className="questionBox">
           <div className="questionText">
-            <div className="myClass">
+
                 <LikertSkala />
-                </div>
+          
 
           </div>
 

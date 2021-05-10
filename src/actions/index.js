@@ -6,7 +6,7 @@ import {
   FETCH_INFORMATIONS,
 
 
-  EDIT_STREAM
+
 } from './types';
 
 

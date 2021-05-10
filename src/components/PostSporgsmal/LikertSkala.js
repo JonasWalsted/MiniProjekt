@@ -12,8 +12,8 @@ export default () => {
       { value: 5, text: "Meget sjovt" }
     ],
     onChange: val => {
-      console.log(val);
-
+      console.log(val.text);
+<div>{val.text}</div>
     }
   };
   return (
