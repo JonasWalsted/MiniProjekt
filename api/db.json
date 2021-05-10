@@ -1,16 +1,5 @@
 {
   "streams": [
-    {
-      "email": "walsted1987@gmail.com",
-      "efternavn": "ælø",
-      "fornavn": "ælø",
-      "id": 1
-    },
-    {
-      "fornavn": "Frederik",
-      "efternavn": "Kok",
-      "email": "næh!",
-      "id": 2
-    }
+
   ]
 }
