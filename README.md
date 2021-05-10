@@ -7,7 +7,8 @@ Inden prototypen kan køres skal en række libraries installeres.
 Dette gøres på føgende måde;
 
     1)  Find filplaceringen på prototypens repocitory.
-            Åbnes prototypen via GitHub desktop kan filplaceringen findes ved at navigere til menuen Repository - Show in Explorer
+            Åbnes prototypen via GitHub desktop kan filplaceringen findes ved at navigere til menuen 
+            'Repository - Show in Explorer'
             eller bruge genvejstasterne CTRL + skift + F
     2)  Åben kommandoprompt på computeren
     3)  Indtast "cd " og filplaceringen til prototypens repocitory
