@@ -8,14 +8,14 @@ class InformationList extends React.Component {
   }
 
   renderList() {
-    return this.props.streams.map(stream => {
+    return this.props.streams.map(name => {
       return (
-        <div className="item" key={stream.id}>
+        <div className="item" key={name.id}>
 
           <div className="content">
-            Fornavn: {stream.fornavn} <br />
-            Efternavn: {stream.efternavn} <br />
-            Email: {stream.email}
+            Fornavn: {name.fornavn} <br />
+            Efternavn: {name.efternavn} <br />
+            Email: {name.email}
             <div className="efternavn"></div>
           </div>
         </div>

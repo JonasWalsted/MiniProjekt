@@ -1,5 +1,5 @@
 import React from 'react';
-
+import LikertSkala from './LikertSkala';
 import './PostSporgsmal.css'
 import { Link } from 'react-router-dom';
 
@@ -7,10 +7,11 @@ import { Link } from 'react-router-dom';
 
 
 const PostSporgsmal = () => {
+
   return (
     <div className="body">
 
-      <div className="tekstHeader"> 
+      <div className="tekstHeader">
         <b class="ui dividing header">Spørgsmål</b>
       </div>
 
@@ -18,14 +19,18 @@ const PostSporgsmal = () => {
 
         <div className="questionBox">
           <div className="questionText">
-            <b>Hvad synes du om CSS?</b>  
+            <div className="myClass">
+                <LikertSkala />
+                </div>
+
           </div>
-          
-        </div>  
+
+        </div>
 
         <div className="Merlin_box2">
           <div className="bubble">
             <p><br/>Så mangler vi bare nogle få spørgsmål </p>
+
             <div className="trekantVedTaleboble"></div>
           </div>
           <img className="Merlin" src="Billede1.png" alt="Merlin"></img>
