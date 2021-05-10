@@ -11,7 +11,10 @@ export default () => {
       { value: 4, text: "Sjovt " },
       { value: 5, text: "Meget sjovt" }
     ],
-    
+    onChange: val => {
+      console.log(val);
+
+    }
   };
   return (
     <Likert {...likertOptions}
