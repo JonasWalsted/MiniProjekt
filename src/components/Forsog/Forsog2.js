@@ -31,7 +31,7 @@ class Forsog2 extends React.Component {
 
                     <div className="Naste">
                       <button className="large ui next button">
-                        <Link to="/PageEight"> Klaret! </Link>
+                        <Link to="/PageSevenDotOne"> Klaret! </Link>
                       </button>
                     </div>
 

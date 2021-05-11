@@ -21,7 +21,7 @@ const PostSporgsmal = () => {
           <div className="questionText">
 
                 <LikertSkala />
-          
+
 
           </div>
 
@@ -39,7 +39,7 @@ const PostSporgsmal = () => {
 
         <div className="tilbage">
           <button className="ui back button">
-            <Link to="/PageSeven"> Tilbage </Link>
+            <Link to="/PageSevenDotTwo"> Tilbage </Link>
           </button>
         </div>
 

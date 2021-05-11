@@ -4,7 +4,7 @@ import '../Template.css';
 import { Link } from 'react-router-dom';
 
 
-class Forsog4VisBane extends React.Component {
+class Forsog4 extends React.Component {
 
     render() {
         return (
@@ -16,7 +16,7 @@ class Forsog4VisBane extends React.Component {
 
                     <div className="Merlin_box3">
                         <div className="bubble">
-                            <p><br/>Nu skal du følge app'en <br/> til og med du har bygget<br/> "Min første Bane" </p>
+                            <p><br/>Nu skal du følge app'en <br/> til og med du har bygget<br/> Opgave 7  </p>
                             <div className="trekantVedTaleboble">
 
                             </div>
@@ -31,7 +31,7 @@ class Forsog4VisBane extends React.Component {
 
                     <div className="Naste">
                       <button className="large ui next button">
-                        <Link to="/PageEight"> Klaret! </Link>
+                        <Link to="/PageSevenDotOne"> Klaret! </Link>
                       </button>
                     </div>
 
@@ -48,4 +48,4 @@ class Forsog4VisBane extends React.Component {
     }
 }
 
-export default Forsog4VisBane;
+export default Forsog4;

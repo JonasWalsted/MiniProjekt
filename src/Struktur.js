@@ -2,14 +2,14 @@ import React from 'react';
 import Introduktion from './components/Introduction/Introduktion';
 import Demografi from './components/Demographics/Demografi';
 import Demografi2 from './components/Demographics/Demografi2';
-import Video from './components/Video/Video';
+import Video from './components/Video/VideoInstruks';
 import ForsteSide from './components/Google_Login/ForsteSide';
 import Remedier from './components/Remeider/Remedier';
 import Instruks from './components/Instruks/Instruks';
 import Forsog from './components/Forsog/Forsog';
 import Forsog2 from './components/Forsog/Forsog2';
 import Forsog3 from './components/Forsog/Forsog3';
-import Forsog4VisBane from './components/Forsog/Forsog4VisBane';
+import Forsog4 from './components/Forsog/Forsog4';
 
 
 import PostSporgsmal from './components/PostSporgsmal/PostSporgsmal';
@@ -90,7 +90,7 @@ const PageSevenDotOne = () => {
 
 const PageSevenDotTwo = () => {
     return <div>
-        <Forsog4VisBane />
+        <Forsog4 />
     </div>
 };
 
@@ -109,4 +109,4 @@ const PageNine = () => {
 };
 
 
-export { PageOneOne, PageOne, PageTwo, PageTwoDotFive, PageThree, PageFour, PageFive, PageSix, PageSeven, PageSevenDotOne, Forsog4VisBane, PageEight, PageNine }
+export { PageOneOne, PageOne, PageTwo, PageTwoDotFive, PageThree, PageFour, PageFive, PageSix, PageSeven, PageSevenDotOne, PageSevenDotTwo, PageEight, PageNine }

@@ -1,0 +1,28 @@
+/*
+.app {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+*/
+
+.app__container {
+	position: absolute;
+	margin-top: 10px;
+	width: 500px;
+	height: 500px;
+	right: 25em;
+	z-index: -1;
+
+}
+
+.app__input {
+	position: absolute;
+	top: 550px;
+	right: 25em;
+}
+
+.app__videoFeed{
+	z-index: -1;
+}
