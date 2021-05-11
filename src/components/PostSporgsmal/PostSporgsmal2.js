@@ -20,7 +20,7 @@ const PostSporgsmal2 = () => {
 
 
           <div className="DemographicInput">
-            <div><h1> Hvordan var det at bygge din bane? </h1></div>
+            <div><h1> Hvad synes du om at bygge med LEGO Super Mario sættet?  </h1></div>
             <p>    <LikertSkala />></p>
 
           </div>
