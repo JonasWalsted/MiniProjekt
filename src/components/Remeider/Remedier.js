@@ -53,7 +53,7 @@ const Remeider = () => {
         <div className="body" >
             <div className="Design">
                 <div className="tekstHeader">
-                          <b class="ui dividing header">Velkommen</b>
+                          <b class="ui dividing header">Intruks</b>
                 </div>
 
                 <div className="Merlin_box3">

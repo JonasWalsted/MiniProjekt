@@ -16,9 +16,12 @@ const PostSporgsmal = () => {
       </div>
 
       <div className="Design">
-          <div className="DemographicInput">
-            <div><h1> Hvordan var det at bygge din bane? </h1></div>
-            <p>    <LikertSkala />></p>
+          <div className="questionBox">
+            <div className="questionText"><b> Hvordan var det at bygge din bane? </b></div>
+            <div className="likertBox">
+              <p>    <LikertSkala /> </p>
+            </div>
+            
 
           </div>
 
