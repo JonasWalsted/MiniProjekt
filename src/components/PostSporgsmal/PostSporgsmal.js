@@ -21,8 +21,6 @@ const PostSporgsmal = () => {
             <div className="likertBox">
               <p>    <LikertSkala /> </p>
             </div>
-            
-
           </div>
 
 

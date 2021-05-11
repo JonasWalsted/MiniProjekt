@@ -18,12 +18,14 @@ const PostSporgsmal2 = () => {
       <div className="Design">
 
 
+      <div className="questionBox">
+        <div className="questionText"><b>  Hvad synes du om at bygge med LEGO Super Mario sættet? </b></div>
+        <div className="likertBox">
+          <p>    <LikertSkala /> </p>
+        </div>
+      </div>
 
-          <div className="DemographicInput">
-            <div><h1> Hvad synes du om at bygge med LEGO Super Mario sættet?  </h1></div>
-            <p>    <LikertSkala />></p>
-
-          </div>
+        
 
 
 
