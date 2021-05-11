@@ -1,16 +1,16 @@
 import React from 'react';
-import './Instruks.css';
+
 import history from '../../history';
 import { Link } from 'react-router-dom';
 import '../Template.css';
 
-class Instruks1 extends React.Component {
+class Forsog extends React.Component {
     render() {
         return (
           <div className="body">
             <div className="Design">
               <div className="tekstHeader">
-                <b  class="ui dividing header">Instruks</b>
+                <b  class="ui dividing header">Forsøg</b>
               </div>
 
               <div className="Merlin_box1">
@@ -41,4 +41,4 @@ class Instruks1 extends React.Component {
     }
 }
 
-export default Instruks1;
+export default Forsog;

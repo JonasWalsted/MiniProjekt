@@ -1,26 +1,26 @@
 import React from 'react';
-import './Instruks.css';
 
-import { Link } from 'react-router-dom';
 import '../Template.css';
+import { Link } from 'react-router-dom';
 
-class Instruks2 extends React.Component {
+
+class Forsog3 extends React.Component {
 
     render() {
         return (
             <div className="body" >
                 <div className="Design">
                     <div className="tekstHeader">
-                        <b class="ui dividing header">Instruks</b>
+                        <b class="ui dividing header">Forsøg</b>
                     </div>
 
                     <div className="Merlin_box3">
                         <div className="bubble">
-                            <p><br/>Nu skal du følge app'en <br/> indtil du har bygget<br/> "Min første Bane" </p>
+                            <p><br/>Nu skal du følge app'en <br/> til og med du har bygget<br/> "Min første Bane" </p>
                             <div className="trekantVedTaleboble">
 
                             </div>
-                            
+
 
                         </div>
                         <img className="Merlin" src="Billede1.png" alt="Merlin"></img>
@@ -48,4 +48,4 @@ class Instruks2 extends React.Component {
     }
 }
 
-export default Instruks2;
+export default Forsog3;

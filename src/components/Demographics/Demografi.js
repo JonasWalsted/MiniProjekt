@@ -21,7 +21,7 @@ const Demografi = (props) => {
     <div className="body">
 
       <div className="tekstHeader">
-          <b class="ui dividing header">PERSONLIGE INFORMATIONER</b>
+          <b class="ui dividing header">Lidt om dig</b>
       </div>
 
 

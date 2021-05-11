@@ -6,10 +6,17 @@ import Video from './components/Video/Video';
 import ForsteSide from './components/Google_Login/ForsteSide';
 import Remedier from './components/Remeider/Remedier';
 import Instruks from './components/Instruks/Instruks';
-import Instruks1 from './components/Instruks/Instruks1';
-import Instruks2 from './components/Instruks/Instruks2';
+import Forsog from './components/Forsog/Forsog';
+import Forsog2 from './components/Forsog/Forsog2';
+import Forsog3 from './components/Forsog/Forsog3';
+import Forsog4VisBane from './components/Forsog/Forsog4VisBane';
+
+
 import PostSporgsmal from './components/PostSporgsmal/PostSporgsmal';
 import Afslutning from './components/Afslutning/Afslutning';
+
+
+
 const PageOneOne = () => {
     return (
         <div className="Hej">
@@ -63,16 +70,30 @@ const PageFive = () => {
 };
 const PageSix = () => {
     return <div>
-        <Instruks1 />
+        <Forsog />
     </div>
 };
 
 
 const PageSeven = () => {
     return <div>
-        <Instruks2 />
+        <Forsog2 />
     </div>
 };
+
+const PageSevenDotOne = () => {
+    return <div>
+        <Forsog3 />
+    </div>
+};
+
+
+const PageSevenDotTwo = () => {
+    return <div>
+        <Forsog4VisBane />
+    </div>
+};
+
 
 
 const PageEight = () => {
@@ -88,4 +109,4 @@ const PageNine = () => {
 };
 
 
-export { PageOneOne, PageOne, PageTwo, PageTwoDotFive, PageThree, PageFour, PageFive, PageSix, PageSeven, PageEight, PageNine }
+export { PageOneOne, PageOne, PageTwo, PageTwoDotFive, PageThree, PageFour, PageFive, PageSix, PageSeven, PageSevenDotOne, Forsog4VisBane, PageEight, PageNine }

@@ -2,8 +2,9 @@ import React from 'react';
 import './Remeider.css';
 import history from '../../history';
 import { Link } from 'react-router-dom';
+import '../Template.css';
 
-const Introduktion() {
+const Remeider() {
     const imageClick() {
         return {
             history.push('/PageFour')
@@ -18,7 +19,6 @@ const Introduktion() {
                     <div className="tekstHeader">
                         <h1>Velkommen</h1>
                     </div>
-
                     <div className="Merlin_box3">
                         <div className="bubble">
                             <p>Hej! Jeg hedder Merlin <br /> Velkommen til dette forsøg</p>
@@ -49,4 +49,4 @@ const Introduktion() {
     }
 }
 
-export default Introduktion;
+export default Remeider;

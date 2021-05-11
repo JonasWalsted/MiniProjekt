@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import history from '../../history'
 import './Remeider.css';
 import { Link } from 'react-router-dom';
+import '../Template.css';
 
 
 
-
-const Introduktion = () => {
+const Remeider = () => {
     const imageClick = () => {
         history.push('/PageFour')
     }
@@ -16,11 +16,11 @@ const Introduktion = () => {
     }
     if (activeIndex === true) {
         return (
-            <div className="body" >
-                <div className="Design">
-                    <div className="tekstHeader">
-                        <h1>Velkommen</h1>
-                    </div>
+          <div className="body" >
+              <div className="Design">
+                  <div className="tekstHeader">
+                      <h1>Velkommen</h1>
+                  </div>
 
                     <div className="Merlin_box3">
                         <div className="bubble">
@@ -53,7 +53,7 @@ const Introduktion = () => {
         <div className="body" >
             <div className="Design">
                 <div className="tekstHeader">
-                    <h1>Velkommen</h1>
+                          <b class="ui dividing header">Velkommen</b>
                 </div>
 
                 <div className="Merlin_box3">
@@ -88,4 +88,4 @@ const Introduktion = () => {
 }
 
 
-export default Introduktion;
+export default Remeider;

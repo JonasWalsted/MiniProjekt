@@ -41,7 +41,7 @@ function Video() {
     <div className="body">
       <div className="Design">
         <div className="tekstHeader">
-            <b>Velkommen</b>
+              <b class="ui dividing header">Instruks</b>  
         </div>
 
         <div className="Merlin_box3">

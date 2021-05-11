@@ -1,45 +1,51 @@
 import React from 'react';
-import './Instruks.css';
-import history from '../../history';
-import { Link } from 'react-router-dom';
+
 import '../Template.css';
-class Instruks extends React.Component {
+import { Link } from 'react-router-dom';
+
+
+class Forsog2 extends React.Component {
 
     render() {
         return (
             <div className="body" >
                 <div className="Design">
                     <div className="tekstHeader">
-                        <b class="ui dividing header">Instruks</b>
+                        <b class="ui dividing header">Forsøg</b>
                     </div>
 
                     <div className="Merlin_box3">
                         <div className="bubble">
-                            <p><br/>Nu skal vi have hentet app'en <br /> Søg på LEGO Super Mario <br/>der hvor du henter apps</p>
-                            <div className="trekantVedTaleboble"></div>
+                            <p><br/>Nu skal du følge app'en <br/> til og med du har bygget<br/> "Min første Bane" </p>
+                            <div className="trekantVedTaleboble">
+
+                            </div>
+
+
                         </div>
                         <img className="Merlin" src="Billede1.png" alt="Merlin"></img>
 
                     </div>
 
-                    <div className="phone_app_frame"> <img className="phone_app" src="LEGOSUPERMARIO.png"></img></div>
+                    <div className="phone_app_frame"> <img className="phone_app" src="Punkt3.png"></img></div>
 
                     <div className="Naste">
                       <button className="large ui next button">
-                        <Link to="/PageSix"> Klaret! </Link>
+                        <Link to="/PageEight"> Klaret! </Link>
                       </button>
                     </div>
 
                     <div className="tilbage">
                         <button className="large ui back button">
-                            <Link to="/PageFour"> Tilbage </Link>
+                            <Link to="/PageSix"> Tilbage </Link>
                         </button>
-                    </div>
-                </div>
+                  </div>
 
+
+                </div>
             </div >
         )
     }
 }
 
-export default Instruks;
+export default Forsog2;
