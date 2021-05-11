@@ -18,9 +18,9 @@ const Remeider = () => {
         return (
           <div className="body" >
               <div className="Design">
-                  <div className="tekstHeader">
-                      <h1>Velkommen</h1>
-                  </div>
+                    <div className="tekstHeader">
+                        <b class="ui dividing header">Instruks</b>  
+                    </div>
 
                     <div className="Merlin_box3">
                         <div className="bubble">

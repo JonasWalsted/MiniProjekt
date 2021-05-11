@@ -35,7 +35,7 @@ const Demografi = (props) => {
 
         <div className="Merlin_box2">
           <div className="bubble">
-            <p>Jeg har faktisk ikke fået dit navn?<br /> Hvis i er flere, så indtast navnene en af gangen</p>
+            <p>Jeg har faktisk ikke fået dit navn?<br /> Hvis I er flere, så indtast navnene en af gangen</p>
             <div className="trekantVedTaleboble">
             </div>
           </div>
