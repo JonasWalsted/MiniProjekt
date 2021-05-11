@@ -27,17 +27,17 @@ class Forsog4 extends React.Component {
 
                     </div>
 
-                    <div className="phone_app_frame"> <img className="phone_app" src="Punkt3.png"></img></div>
+                    <div className="phone_app_frame"> <img className="phone_app" src="Bane7.png"></img></div>
 
                     <div className="Naste">
                       <button className="large ui next button">
-                        <Link to="/PageSevenDotOne"> Klaret! </Link>
+                        <Link to="/PageSevenDotThree"> Klaret! </Link>
                       </button>
                     </div>
 
                     <div className="tilbage">
                         <button className="large ui back button">
-                            <Link to="/PageSix"> Tilbage </Link>
+                            <Link to="/PageSevenDotOne"> Tilbage </Link>
                         </button>
                   </div>
 

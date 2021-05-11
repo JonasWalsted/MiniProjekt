@@ -6,7 +6,7 @@ import '../Template.css';
 import { Link } from 'react-router-dom';
 
 
-class Forsog3 extends React.Component {
+class Forsog5 extends React.Component {
 
     render() {
         return (
@@ -33,13 +33,13 @@ class Forsog3 extends React.Component {
 
                     <div className="Naste">
                       <button className="large ui next button">
-                        <Link to="/PageSevenDotTwo"> Klaret! </Link>
+                        <Link to="/PageEight"> Klaret! </Link>
                       </button>
                     </div>
 
                     <div className="tilbage">
                         <button className="large ui back button">
-                            <Link to="/PageSeven"> Tilbage </Link>
+                            <Link to="/PageSevenDotTwo"> Tilbage </Link>
                         </button>
                   </div>
 
@@ -50,4 +50,4 @@ class Forsog3 extends React.Component {
     }
 }
 
-export default Forsog3;
+export default Forsog5;

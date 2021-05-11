@@ -10,9 +10,11 @@ import Forsog from './components/Forsog/Forsog';
 import Forsog2 from './components/Forsog/Forsog2';
 import Forsog3 from './components/Forsog/Forsog3';
 import Forsog4 from './components/Forsog/Forsog4';
+import Forsog5 from './components/Forsog/Forsog5';
 
 
 import PostSporgsmal from './components/PostSporgsmal/PostSporgsmal';
+import PostSporgsmal2 from './components/PostSporgsmal/PostSporgsmal2';
 import Afslutning from './components/Afslutning/Afslutning';
 
 
@@ -94,11 +96,22 @@ const PageSevenDotTwo = () => {
     </div>
 };
 
+const PageSevenDotThree = () => {
+    return <div>
+        <Forsog5 />
+    </div>
+};
 
 
 const PageEight = () => {
     return <div>
         <PostSporgsmal />
+    </div>
+};
+
+const PageEightDotOne = () => {
+    return <div>
+        <PostSporgsmal2 />
     </div>
 };
 
@@ -109,4 +122,4 @@ const PageNine = () => {
 };
 
 
-export { PageOneOne, PageOne, PageTwo, PageTwoDotFive, PageThree, PageFour, PageFive, PageSix, PageSeven, PageSevenDotOne, PageSevenDotTwo, PageEight, PageNine }
+export { PageOneOne, PageOne, PageTwo, PageTwoDotFive, PageThree, PageFour, PageFive, PageSix, PageSeven, PageSevenDotOne, PageSevenDotTwo,PageSevenDotThree, PageEight,PageEightDotOne, PageNine }

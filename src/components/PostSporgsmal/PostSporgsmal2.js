@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 
 
-const PostSporgsmal = () => {
+const PostSporgsmal2 = () => {
 
   return (
     <div className="body">
@@ -16,6 +16,9 @@ const PostSporgsmal = () => {
       </div>
 
       <div className="Design">
+
+
+
           <div className="DemographicInput">
             <div><h1> Hvordan var det at bygge din bane? </h1></div>
             <p>    <LikertSkala />></p>
@@ -37,13 +40,13 @@ const PostSporgsmal = () => {
 
         <div className="tilbage">
           <button className="ui back button">
-            <Link to="/PageSevenDotTwo"> Tilbage </Link>
+            <Link to="/PageEight"> Tilbage </Link>
           </button>
         </div>
 
         <div className="Naste">
           <button className="large ui next button">
-            <Link to="/PageEightDotOne"> Næste </Link>
+            <Link to="/pageNine"> Næste </Link>
           </button>
         </div>
 
@@ -55,4 +58,4 @@ const PostSporgsmal = () => {
   );
 }
 
-export default PostSporgsmal;
+export default PostSporgsmal2;

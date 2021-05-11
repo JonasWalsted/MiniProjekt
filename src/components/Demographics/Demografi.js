@@ -12,27 +12,16 @@ import './Demographics.css';
 
 
 const Demografi = (props) => {
-
-
-
   return (
-
-
     <div className="body">
-
       <div className="tekstHeader">
           <b class="ui dividing header">Lidt om dig</b>
       </div>
-
-
-
       <div className="Design">
         <div className="DemographicInput">
           <InformationCreate />
           <InformationList />
         </div>
-
-
         <div className="Merlin_box2">
           <div className="bubble">
             <p>Jeg har faktisk ikke fået dit navn?<br /> Hvis I er flere, så indtast navnene en af gangen</p>

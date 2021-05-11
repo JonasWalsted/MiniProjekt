@@ -2,7 +2,7 @@ import React from 'react';
 import { Router, Route } from 'react-router-dom';
 
 import history from '../history';
-import { PageOneOne, PageOne, PageTwo, PageTwoDotFive, PageThree, PageFour, PageFive, PageSix, PageSeven, PageSevenDotOne, PageSevenDotTwo, PageEight, PageNine } from '../Struktur';
+import { PageOneOne, PageOne, PageTwo, PageTwoDotFive, PageThree, PageFour, PageFive, PageSix, PageSeven, PageSevenDotOne, PageSevenDotTwo,PageSevenDotThree, PageEight,PageEightDotOne, PageNine } from '../Struktur';
 
 
 const App = () => {
@@ -20,7 +20,11 @@ const App = () => {
         <Route path="/PageSeven" component={PageSeven} />
         <Route path="/PageSevenDotOne" component={PageSevenDotOne} />
         <Route path="/PageSevenDotTwo" component={PageSevenDotTwo} />
+        <Route path="/PageSevenDotThree" component={PageSevenDotThree} />
+
+PageEightDotOne
         <Route path="/PageEight" component={PageEight} />
+                <Route path="/PageEightDotOne" component={PageEightDotOne} />
           <Route path="/PageNine" component={PageNine} />
 
       </Router>

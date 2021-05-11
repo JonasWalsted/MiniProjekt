@@ -3,7 +3,7 @@ import Likert from 'react-likert-scale';
 
 export default () => {
   const likertOptions = {
-    question: "Hvordan var det at bygge din bane?",
+    
     responses: [
       { value: 1, text: "Kedeligt" },
       { value: 2, text: "Lidt kedeligt" },

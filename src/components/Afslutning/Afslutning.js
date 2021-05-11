@@ -23,10 +23,10 @@ const Afslutning = () => {
 
         <div className="tilbage">
           <button className="ui back button">
-            <Link to="/PageEight"> Tilbage </Link>
+            <Link to="/PageEightDotOne"> Tilbage </Link>
           </button>
         </div>
-    
+
 
 
       </div>
