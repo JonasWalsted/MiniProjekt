@@ -13,7 +13,6 @@ export default () => {
     ],
     onChange: val => {
       console.log(val.text);
-<div>{val.text}</div>
     }
   };
   return (
