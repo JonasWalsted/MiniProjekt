@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Video.css';
-import '../Template.css';
+
 import { Link } from 'react-router-dom';
 
 
@@ -9,7 +9,7 @@ function Video() {
 	const [playing, setPlaying] = useState(false);
 
 	const HEIGHT = 500;
-	const WIDTH = 500;
+	const WIDTH =500;
 
 	const startVideo = () => {
 		setPlaying(true);
