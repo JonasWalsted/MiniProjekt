@@ -21,105 +21,126 @@ import Afslutning from './components/Afslutning/Afslutning';
 
 const PageOneOne = () => {
     return (
-        <div className="Hej">
+        <>
             <ForsteSide />
-        </div>
+        </>
     );
 };
 
 const PageOne = () => {
     return (
-        <div className="Hej">
+        <>
             <Introduktion />
-        </div>
+        </>
     );
 };
 
 const PageTwo = () => {
-    return (<div>
-        <Demografi />
-
-    </div>
+    return (
+        <>
+            <Demografi />
+        </>
     );
 };
 
 
 const PageTwoDotFive = () => {
-    return (<div>
-        <Demografi2 />
+    return (
+        <>
+            <Demografi2 />
 
-    </div>
+        </>
     );
 };
 const PageThree = () => {
-    return <div>
-        <Remedier />
-    </div>
+    return (
+        <>
+            <Remedier />
+        </>
+    )
 };
 
 const PageFour = () => {
-    return <div>
-        <Video />
-    </div>
+    return (
+        <>
+            <Video />
+        </>
+    )
 };
 
 const PageFive = () => {
     return (
-        <div>
+        <>
             <Instruks />
-        </div>
+        </>
     )
 };
 const PageSix = () => {
-    return <div>
-        <Forsog />
-    </div>
+    return (
+        <>
+            <Forsog />
+        </>
+    )
 };
 
 
 const PageSeven = () => {
-    return <div>
-        <Forsog2 />
-    </div>
+    return (
+        <>
+            <Forsog2 />
+        </>
+    )
 };
 
 const PageSevenDotOne = () => {
-    return <div>
-        <Forsog3 />
-    </div>
+    return (
+        <>
+            <Forsog3 />
+        </>
+    )
 };
 
 
 const PageSevenDotTwo = () => {
-    return <div>
-        <Forsog4 />
-    </div>
+    return (
+        <>
+            <Forsog4 />
+        </>
+    )
 };
 
 const PageSevenDotThree = () => {
-    return <div>
-        <Forsog5 />
-    </div>
+    return (
+        <>
+            <Forsog5 />
+        </>
+    )
 };
 
 
 const PageEight = () => {
-    return <div>
-        <PostSporgsmal />
-    </div>
+    return (
+        <>
+            <PostSporgsmal />
+        </>
+    )
 };
 
 const PageEightDotOne = () => {
-    return <div>
-        <PostSporgsmal2 />
-    </div>
+    return (
+        <>
+            <PostSporgsmal2 />
+        </>
+    )
 };
 
 const PageNine = () => {
-    return <div>
-        <Afslutning />
-    </div>
+    return (
+        <>
+            <Afslutning />
+        </>
+    )
 };
 
 
-export { PageOneOne, PageOne, PageTwo, PageTwoDotFive, PageThree, PageFour, PageFive, PageSix, PageSeven, PageSevenDotOne, PageSevenDotTwo,PageSevenDotThree, PageEight,PageEightDotOne, PageNine }
+export { PageOneOne, PageOne, PageTwo, PageTwoDotFive, PageThree, PageFour, PageFive, PageSix, PageSeven, PageSevenDotOne, PageSevenDotTwo, PageSevenDotThree, PageEight, PageEightDotOne, PageNine }
