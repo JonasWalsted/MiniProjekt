@@ -11,8 +11,6 @@ import Forsog2 from './components/Forsog/Forsog2';
 import Forsog3 from './components/Forsog/Forsog3';
 import Forsog4 from './components/Forsog/Forsog4';
 import Forsog5 from './components/Forsog/Forsog5';
-
-
 import PostSporgsmal from './components/PostSporgsmal/PostSporgsmal';
 import PostSporgsmal2 from './components/PostSporgsmal/PostSporgsmal2';
 import Afslutning from './components/Afslutning/Afslutning';
@@ -21,7 +19,7 @@ import Afslutning from './components/Afslutning/Afslutning';
 
 const PageOneOne = () => {
     return (
-        <div className="Hej">
+        <div>
             <ForsteSide />
         </div>
     );
@@ -29,7 +27,7 @@ const PageOneOne = () => {
 
 const PageOne = () => {
     return (
-        <div className="Hej">
+        <div>
             <Introduktion />
         </div>
     );

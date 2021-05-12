@@ -6,25 +6,12 @@ import { Link } from 'react-router-dom';
 import '../Template.css';
 import './Demographics.css';
 
-
-
-
-
 const Demografi = (props) => {
-
-
-
   return (
-
-
     <div className="body">
-
       <div className="tekstHeader">
         <b className="ui dividing header">Lidt om dig</b>
       </div>
-
-
-
       <div className="Design">
         <div className="DemographicInput">
           <div><h1> Hvilken aldersgruppe tilhører du? </h1></div>

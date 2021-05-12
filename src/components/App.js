@@ -21,11 +21,9 @@ const App = () => {
         <Route path="/PageSevenDotOne" component={PageSevenDotOne} />
         <Route path="/PageSevenDotTwo" component={PageSevenDotTwo} />
         <Route path="/PageSevenDotThree" component={PageSevenDotThree} />
-
-PageEightDotOne
         <Route path="/PageEight" component={PageEight} />
-                <Route path="/PageEightDotOne" component={PageEightDotOne} />
-          <Route path="/PageNine" component={PageNine} />
+        <Route path="/PageEightDotOne" component={PageEightDotOne} />
+        <Route path="/PageNine" component={PageNine} />
 
       </Router>
     </div>

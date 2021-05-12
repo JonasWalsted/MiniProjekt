@@ -36,10 +36,6 @@ function Video() {
 
 
 	return (
-
-
-
-
 <div>
         <div className="app__container">
             <video

@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { selectQuestion, selectGender } from '../../actions';
 
-
-
-
 class QuestionList extends React.Component {
   renderList() {
     return this.props.questions.map(question => {
@@ -25,14 +22,10 @@ class QuestionList extends React.Component {
     });
   }
 
-
-
     render() {
       return <div className="ui divided list">{this.renderList()}</div>;
     }
   }
-
-
 const mapStateToProps = state => {
   return (
     { questions: state.ageGroups });
