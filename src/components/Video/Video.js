@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import './Video.css';
-
 import { Link } from 'react-router-dom';
-
-
 
 function Video() {
 	const [playing, setPlaying] = useState(false);
