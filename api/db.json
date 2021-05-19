@@ -1,22 +1,10 @@
 {
   "streams": [
     {
-      "fornavn": "asd",
-      "efternavn": "sad",
-      "email": "sad",
+      "fornavn": "Jonas ",
+      "efternavn": "Walsted ",
+      "email": "jwalst16@student.aau.dk",
       "id": 1
-    },
-    {
-      "fornavn": "ælø",
-      "efternavn": "ælø",
-      "email": "ælø",
-      "id": 2
-    },
-    {
-      "fornavn": "jhgk",
-      "efternavn": "jhk",
-      "email": "jhk",
-      "id": 3
     }
   ]
 }
