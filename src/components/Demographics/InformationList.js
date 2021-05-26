@@ -11,12 +11,10 @@ class InformationList extends React.Component {
     return this.props.streams.map(name => {
       return (
         <div className="item" key={name.id}>
-
           <div className="content">
             Fornavn: {name.fornavn} <br />
             Efternavn: {name.efternavn} <br />
             Email: {name.email}
-            
           </div>
         </div>
       );
