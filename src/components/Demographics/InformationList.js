@@ -16,7 +16,7 @@ class InformationList extends React.Component {
             Fornavn: {name.fornavn} <br />
             Efternavn: {name.efternavn} <br />
             Email: {name.email}
-            <div className="efternavn"></div>
+            
           </div>
         </div>
       );

@@ -1,5 +1,16 @@
 {
   "streams": [
-
+    {
+      "fornavn": "asd",
+      "efternavn": "asd",
+      "email": "sad",
+      "id": 1
+    },
+    {
+      "fornavn": "gfh",
+      "efternavn": "gffh",
+      "email": "gfh",
+      "id": 2
+    }
   ]
 }
