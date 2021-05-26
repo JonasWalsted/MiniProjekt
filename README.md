@@ -6,7 +6,7 @@ Følgende er en guide til opsætning og start af hjemmesiden.
 Inden prototypen kan køres skal en række libraries installeres. 
 Dette gøres på føgende måde;
 
-    1)  Først installere node.js via følgende link: https://nodejs.org/en/download/ 
+    1)  Installere node.js via følgende link: https://nodejs.org/en/download/ 
     2)  Find filplaceringen på prototypens repocitory.
             Åbnes prototypen via GitHub desktop kan filplaceringen findes ved at navigere til menuen 
             'Repository - Show in Explorer'
