@@ -1,5 +1,10 @@
 {
   "streams": [
-
+    {
+      "fornavn": "Jonas ",
+      "efternavn": "Walsted",
+      "email": "jwaslt16@student.aau.dk",
+      "id": 1
+    }
   ]
 }
