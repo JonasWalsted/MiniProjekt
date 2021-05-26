@@ -16,7 +16,8 @@ Dette gøres på føgende måde;
     4)  Installér Redux Form ved at indtaste "npm install --save redux-form" i kommandopropten
     5)  Installér React Router ved at indtaste "npm install --save react-router-dom" i kommandoprompten
     6)  Installér Axios og Redux Thunk ved at indtaste "npm install --save axios redux-thunk"
-    7)  Installér Axios og Redux Thunk ved at indtaste "npm i react-likert-scale"
+    7)  Installér React likert skala biblioteket
+    ved at indtaste "npm i react-likert-scale"
 
 
 # Start af api server og hjemmeside
