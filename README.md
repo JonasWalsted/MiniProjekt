@@ -6,17 +6,18 @@ Følgende er en guide til opsætning og start af hjemmesiden.
 Inden prototypen kan køres skal en række libraries installeres. 
 Dette gøres på føgende måde;
 
-    1)  Find filplaceringen på prototypens repocitory.
+    1)  Først installere node.js via følgende link: https://nodejs.org/en/download/ 
+    2)  Find filplaceringen på prototypens repocitory.
             Åbnes prototypen via GitHub desktop kan filplaceringen findes ved at navigere til menuen 
             'Repository - Show in Explorer'
             eller bruge genvejstasterne CTRL + skift + F
-    2)  Åben kommandoprompt på computeren
-    3)  Indtast "cd " og filplaceringen til prototypens repocitory
+    3)  Åben kommandoprompt på computeren
+    4)  Indtast "cd " og filplaceringen til prototypens repocitory
             Eksempelvis "cd C:\Users\kokke\Documents\GitHub\MP_CSS\MiniProjekt"
-    4)  Installér Redux Form ved at indtaste "npm install --save redux-form" i kommandopropten
-    5)  Installér React Router ved at indtaste "npm install --save react-router-dom" i kommandoprompten
-    6)  Installér Axios og Redux Thunk ved at indtaste "npm install --save axios redux-thunk"
-    7)  Installér React likert skala biblioteket
+    5)  Installér Redux Form ved at indtaste "npm install --save redux-form" i kommandopropten
+    6)  Installér React Router ved at indtaste "npm install --save react-router-dom" i kommandoprompten
+    7)  Installér Axios og Redux Thunk ved at indtaste "npm install --save axios redux-thunk"
+    8)  Installér React likert skala biblioteket
     ved at indtaste "npm i react-likert-scale"
 
 
