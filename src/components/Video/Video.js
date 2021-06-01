@@ -11,19 +11,14 @@ function Video() {
 	const startVideo = () => {
 		setPlaying(true);
 		navigator.getUserMedia(
-			{
-				video: true,
-			},
+			{video: true,},
 			(stream) => {
 				let video = document.getElementsByClassName('app__videoFeed')[0];
-				if (video) {
-					video.srcObject = stream;
-				}
+				if (video) {video.srcObject = stream;}
 			},
 			(err) => console.error(err)
 		);
 	};
-
 
 	const stopVideo = () => {
 		setPlaying(false);
@@ -31,9 +26,8 @@ function Video() {
 		video.srcObject.getTracks()[0].stop();
 	};
 
-
 	return (
-<div>
+	<div>
         <div className="app__container">
             <video
               height={HEIGHT}
@@ -43,19 +37,15 @@ function Video() {
               className="app__videoFeed"
             >
             </video>
-          </div>
-
-          <div className="app__input">
-
-				  {playing ? (
-              <button onClick={stopVideo} className="large ui next button">Stop video</button>
-            ) : (
-              <button onClick={startVideo} className="large ui next button">Start video</button>
+        </div>
+        <div className="app__input">
+			{playing ? (
+              	<button onClick={stopVideo} className="large ui next button">Stop video</button>
+            	) : (
+              	<button onClick={startVideo} className="large ui next button">Start video</button>
             )}
-
-</div>
-  </div>
-
+		</div>
+  	</div>
 	);
 }
 
